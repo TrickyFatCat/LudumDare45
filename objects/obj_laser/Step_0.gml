@@ -21,7 +21,6 @@ switch currentState
 	break;
 }
 
-//show_debug_message(currentState)
 drawAngle = directionCurrent;
 drawScaleX = SortHitscanCollisions(directionCurrent, collisionTargets);
 SetCollisionSize();
