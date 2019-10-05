@@ -25,9 +25,9 @@ transitionInTime = set_time(1);
 // Transform parameters
 guiWidth = display_get_gui_width();
 guiHeight = display_get_gui_height();
-guiMarginX = 32;
+guiMarginX = guiWidth / 2;
 guiMarginY = 32;
-guiFont = fnt_debug;
+guiFont = fnt_text_normal;
 
 menuFoldedX = -200;
 menuX = menuFoldedX;

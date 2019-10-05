@@ -1,7 +1,7 @@
 /// @description CameraMovement
 
 // Parameters
-var _cameraFollowFactor = 0.075;
+var _cameraFollowFactor = 0.09;
 var _targetPositionX;
 var _targetPositionY;
 

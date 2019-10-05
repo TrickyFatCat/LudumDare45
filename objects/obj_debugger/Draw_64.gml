@@ -215,7 +215,7 @@ if (instance_exists(obj_battleStateHandler))
 //	}
 //}
 
-
+draw_set_font(fnt_text_normal);
 
 
 

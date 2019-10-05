@@ -346,15 +346,15 @@ ds_map_add(RocketData, "recoilFactor",				0.3);
 //-----------------------------------------------------------------------------
 ds_map_add(RocketData, "hitscanScaleY",				0);
 ds_map_add(RocketData, "projectileVelocityCurrent",	0);
-ds_map_add(RocketData, "projectileVelocityMax",		5);
-ds_map_add(RocketData, "projectileAcceleration",	0.2);
+ds_map_add(RocketData, "projectileVelocityMax",		7);
+ds_map_add(RocketData, "projectileAcceleration",	0.1);
 ds_map_add(RocketData, "projectileFriction",		0);
 ds_map_add(RocketData, "projectileBounceEnable",	false);
 ds_map_add(RocketData, "projectileBounceFriction",  0);
 //-----------------------------------------------------------------------------
 ds_map_add(RocketData, "isShackingCamera",			true);
 ds_map_add(RocketData, "angularShakeEnabled",		true);
-ds_map_add(RocketData, "shakeValue",				1.1);
+ds_map_add(RocketData, "shakeValue",				1.5);
 ds_map_add(RocketData, "shotShakeFactor",			1);
 #endregion
 
