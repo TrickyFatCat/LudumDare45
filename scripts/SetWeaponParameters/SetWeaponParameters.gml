@@ -89,12 +89,13 @@ switch bulletObjectParent
 	break;
 		
 	case obj_laser:
+		if (array_length_1d(laserObjects) > 0)
+		{
+			DestroyBulletObjects(laserObjects);
+		}
+		
 		if (bulletNumber != array_length_1d(laserObjects))
 		{
-			if (array_length_1d(laserObjects) > 0)
-			{
-				DestroyBulletObjects(laserObjects);
-			}
 			laserObjects = CreateBulletObjects(laserObjects);
 		}
 	break;

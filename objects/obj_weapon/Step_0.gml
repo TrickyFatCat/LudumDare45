@@ -36,3 +36,5 @@ if ((!isShooting) && shotShakeFactorCurrent > 0)
 CalculateRecoil;
 
 CalculateRateOfFire;
+
+show_debug_message(array_length_1d(laserObjects))

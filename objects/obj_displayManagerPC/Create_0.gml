@@ -8,8 +8,8 @@ global.IdealWidth = 480;
 global.IdealHeight = 0;
 resolutionZoom = 1;
 resolutionZoomMax = 1;
-interfaceZoom = 2;
-viewZoom = 0.65;
+interfaceZoom = 1;
+viewZoom = 1.5;
 viewZoomMax = 20;
 
 // Sequence

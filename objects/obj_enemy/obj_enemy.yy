@@ -173,7 +173,7 @@
             "mvc": "1.0",
             "objectId": "e65bc741-4250-4699-9351-a45d11e39675",
             "propertyId": "efabaa81-1598-4f39-85c1-b007e0a0ab2f",
-            "value": "spr_weapon"
+            "value": "spr_enemy_test_run"
         },
         {
             "id": "922c6b42-7f6b-431d-adfe-23065bc5d508",
@@ -181,7 +181,7 @@
             "mvc": "1.0",
             "objectId": "e65bc741-4250-4699-9351-a45d11e39675",
             "propertyId": "2aa18b62-ad05-4c51-abad-332959da88e1",
-            "value": "spr_weapon"
+            "value": "spr_enemy_test_idle"
         }
     ],
     "parentObjectId": "e65bc741-4250-4699-9351-a45d11e39675",
@@ -202,6 +202,6 @@
         
     ],
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "c84a1db2-6544-4547-bad0-26ec97e62e2d",
     "visible": true
 }

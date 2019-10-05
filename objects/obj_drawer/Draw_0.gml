@@ -2,11 +2,6 @@
 
 if (instance_exists(obj_base))
 {
-	if (instance_exists(obj_pathgrid))
-	{
-		mp_grid_draw(global.PathGrid);
-	}
-	
 	DrawFloorObjects;
 	
 	DrawUnsortable(DrawPosition.OnFloor);
@@ -18,7 +13,7 @@ if (instance_exists(obj_base))
 	DrawShadow;
 
 	DrawSortableObjects;
-
+	
 	DrawDissolve;
 
 	DrawFlash;

@@ -18,3 +18,7 @@ surfaceShadows = surface_create(global.CurrentWidth, global.CurrentHeight);
 
 // Create blood surface
 surfaceFloorEffects= surface_create(room_width, room_height);
+
+// Outline
+texelWidth = 0;
+texelHeight = 0;

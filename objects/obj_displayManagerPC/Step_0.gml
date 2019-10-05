@@ -11,22 +11,6 @@ if (keyboard_check_pressed(ord("Z")) || gamepad_button_check_pressed(global.Acti
 	UpdateResolution;
 }
 
-//if (keyboard_check_pressed(vk_enter))
-//{
-//	if (!window_get_fullscreen())
-//	{
-//		window_set_fullscreen(true);
-//		resolutionZoom = resolutionZoomMax;
-//		UpdateResolution;
-//	}
-//	else
-//	{
-//		window_set_fullscreen(false);
-//		resolutionZoom = ceil(resolutionZoomMax / 2);
-//		UpdateResolution;
-//	}
-//}
-
 // Set interface resolutionZoom
 var _zoomSpeed = 0.01;
 var _zoomIn = keyboard_check(vk_right);

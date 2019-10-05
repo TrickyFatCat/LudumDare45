@@ -13,6 +13,7 @@ switch (currentState)
 		RespondToControls;
 		MovePlayer;
 		ChangeSprite;
+		ChangeWeapon;
 		RotateWeapon;
 		ShootWeapon;
 		PullPickups;
@@ -22,6 +23,7 @@ switch (currentState)
 		RespondToControls;
 		MovePlayer;
 		ChangeSprite;
+		ChangeWeapon;
 		RotateWeapon;
 		ShootWeapon;
 		PullPickups;

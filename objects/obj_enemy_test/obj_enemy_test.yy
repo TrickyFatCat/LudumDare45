@@ -31,7 +31,7 @@
             "mvc": "1.0",
             "objectId": "e65bc741-4250-4699-9351-a45d11e39675",
             "propertyId": "2aa18b62-ad05-4c51-abad-332959da88e1",
-            "value": "sprite8"
+            "value": "spr_enemy_test_idle"
         },
         {
             "id": "ea0662de-9af7-4573-b20c-5345b5b78d55",
@@ -39,7 +39,7 @@
             "mvc": "1.0",
             "objectId": "e65bc741-4250-4699-9351-a45d11e39675",
             "propertyId": "efabaa81-1598-4f39-85c1-b007e0a0ab2f",
-            "value": "sprite81"
+            "value": "spr_enemy_test_run"
         }
     ],
     "parentObjectId": "39a84839-a339-4e0e-b1f7-372d6d294a74",

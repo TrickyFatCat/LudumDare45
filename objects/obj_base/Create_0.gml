@@ -10,6 +10,7 @@ drawAngle = image_angle;
 drawColour = image_blend;
 drawAlpha = image_alpha;
 imageSpeedDefault = image_speed;
+directionCurrent = 0;
 #endregion
 
 #region // Shadow paramentrs

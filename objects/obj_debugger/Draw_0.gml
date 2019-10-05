@@ -1,11 +1,5 @@
 /// @description Insert description here
 
-//if (instance_exists(obj_pathgrid))
-//{
-//	mp_grid_draw(global.PathGrid);
-//}
-
-
 if (instance_exists(obj_player))
 {
 	with (obj_player)
