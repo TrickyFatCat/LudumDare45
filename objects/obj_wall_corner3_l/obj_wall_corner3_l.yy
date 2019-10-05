@@ -1,8 +1,8 @@
 {
-    "id": "60f90476-2165-4f5e-90a5-0d05afee5272",
+    "id": "b0277935-acde-477f-a375-6d4fe16d0dab",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_wall_right_corner2",
+    "name": "obj_wall_corner3_l",
     "eventList": [
         
     ],
@@ -26,7 +26,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "8dd3ec59-2b2d-4fc1-ad61-78db43a1a500",
+            "id": "bc32e6c8-ee50-4bda-b571-8615cd5bd5bb",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -41,6 +41,6 @@
         }
     ],
     "solid": false,
-    "spriteId": "22d741bf-6861-4d3e-91c5-03e6e46bdce3",
+    "spriteId": "a66a952b-af2b-4f27-89b6-27b1ee94593f",
     "visible": true
 }
