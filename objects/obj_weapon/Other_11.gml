@@ -8,15 +8,17 @@ if (spreadIsUniform)
 {
 	CalculateUniformSpread();
 }
-else
-{
-	CalculateRandomSpread();
-}
 
 // Spawn projectiles
 for (var i = 0; i < bulletNumber; i++)
 {
+	if (!spreadIsUniform)
+	{
+		CalculateRandomSpread();
+	}
+	
 	var _bullet = SpawnBullet();
+	
 	_bullet.directionCurrent = bulletSpawnDirection + uniformSpreadStep * i;
 	SetProjectileParameters(_bullet, _velocityNoiseFactor);
 }

@@ -11,8 +11,11 @@ if (laserSightEnabled) && (visible)
 	draw_sprite_ext(spr_1pix, image_index, bulletSpawnPointX, bulletSpawnPointY, _scaleX, 1, drawAngle, c_red, 1);
 }
 
+var _x = x;
+var _y = y - z - offsetZ;
+
 // Draw weapon
 if (visible)
 {
-	draw_sprite_ext(weaponSprite, image_index, x - _recoilDeltaX, y - _recoilDeltaY - z, drawScaleX, drawScaleY, drawAngle, image_blend, drawAlpha);
+	draw_sprite_ext(weaponSprite, image_index, _x - _recoilDeltaX, _y - _recoilDeltaY, drawScaleX, drawScaleY, drawAngle, image_blend, drawAlpha);
 }

@@ -4,9 +4,11 @@ if (isShooting) && (checkShootPause)
 {
 	for (var i = 0; i < bulletNumber; i++)
 	{
-		if (laserObjects[i].currentState == LaserState.Active)
+		var _bullet = laserObjects[| i];
+		
+		if (_bullet.currentState == LaserState.Active)
 		{
-			with (laserObjects[i])
+			with (_bullet)
 			{
 				dealingDamage = true;
 				damage = other.damage;
@@ -24,6 +26,8 @@ else
 {
 	for (var i = 0; i < bulletNumber; i++)
 	{
-		laserObjects[i].dealingDamage = false;
+		var _bullet = laserObjects[| i];
+		
+		_bullet.dealingDamage = false;
 	}
 }

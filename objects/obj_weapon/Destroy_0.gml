@@ -1,12 +1,12 @@
 // Inherit the parent event
 event_inherited();
 
-if (laserObjects != noone)
+if (!ds_list_empty(laserObjects))
 {
-	DestroyBulletObjects(laserObjects);
+	ds_list_destroy(laserObjects);
 }
 
-if (hitscanObjects != noone)
+if (!ds_list_empty(hitscanObjects))
 {
-	DestroyBulletObjects(hitscanObjects);
+	ds_list_destroy(hitscanObjects);
 }

@@ -2,5 +2,8 @@
 
 var _id = argument0;
 
-weaponID = _id;
-SetWeapon(activeWeapon, weaponID);
+if (weaponID != _id)
+{
+	weaponID = _id;
+	SetWeapon(activeWeapon, weaponID);
+}

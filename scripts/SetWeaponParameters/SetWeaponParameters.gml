@@ -10,6 +10,7 @@ var _weapon = _weaponData[_weaponID];
 
 weaponOwner =					_owner;
 weaponSprite =					_weapon[? "weaponSprite"];
+offsetZ =						_weapon[? "offsetZ"];
 laserSightEnabled =				_weapon[? "laserSightEnabled"];
 isAuto =						_weapon[? "isAuto"];
 currentShootMode =				_weapon[? "currentShootMode"];
@@ -74,30 +75,26 @@ if ((currentShootMode == ShootMode.Cast || currentShootMode == ShootMode.Charge)
 }
 
 // Spawn bullet objects
-var bulletObjectParent = GetBulletRootParent();
-switch bulletObjectParent
+bulletObjectParent = GetBulletRootParent();
+
+switch (bulletObjectParent)
 {
 	case obj_hitscan:
-		if (bulletNumber != array_length_1d(hitscanObjects))
+		var _listSize = ds_list_size(hitscanObjects);
+		if (_listSize != bulletNumber)
 		{
-			if (array_length_1d(hitscanObjects) > 0)
-			{
-				DestroyBulletObjects(hitscanObjects);
-			}
-			hitscanObjects = CreateBulletObjects(hitscanObjects);
-		}
+			ds_list_clear(hitscanObjects);
+			CreateBulletObjects(hitscanObjects);
+		}		
 	break;
 		
 	case obj_laser:
-		if (array_length_1d(laserObjects) > 0)
+		var _listSize = ds_list_size(laserObjects);
+		if (_listSize != laserObjects)
 		{
-			DestroyBulletObjects(laserObjects);
-		}
-		
-		if (bulletNumber != array_length_1d(laserObjects))
-		{
-			laserObjects = CreateBulletObjects(laserObjects);
-		}
+			ds_list_clear(laserObjects);
+			CreateBulletObjects(laserObjects);
+		}	
 	break;
 }
 

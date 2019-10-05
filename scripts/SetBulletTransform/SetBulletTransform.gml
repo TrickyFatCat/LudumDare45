@@ -1,10 +1,12 @@
 /// @param bulletsArray
 
-var _bulletsArray = argument0;
+var _bulletsList = argument0;
 
 for (var i = 0; i < bulletNumber; i++)
 {
-	with (_bulletsArray[i])
+	var _bullet = _bulletsList[| i];
+	
+	with (_bullet)
 	{
 		x = other.bulletSpawnPointX;
 		y = other.bulletSpawnPointY;

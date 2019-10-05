@@ -10,37 +10,42 @@ _wep[RocketID] =	keyboard_check_pressed(ord("6"));
 _wep[PlasmaID] =	keyboard_check_pressed(ord("7"));
 _wep[BHGID] =		keyboard_check_pressed(ord("8"));
 
-var _arrayLength = array_length_1d(_wep);
-
 if (_wep[PistolID])
 {
 	SetNewWeapon(PistolID);
 }
-else if (_wep[ShotgunlID])
+
+if (_wep[ShotgunlID])
 {
 	SetNewWeapon(ShotgunlID);
 }
-else if (_wep[RifleID])
+
+if (_wep[RifleID])
 {
 	SetNewWeapon(RifleID);
 }
-else if (_wep[DShotgunID])
+
+if (_wep[DShotgunID])
 {
 	SetNewWeapon(DShotgunID);
 }
-else if (_wep[MinigunID])
+
+if (_wep[MinigunID])
 {
 	SetNewWeapon(MinigunID);
 }
-else if (_wep[RocketID])
+
+if (_wep[RocketID])
 {
 	SetNewWeapon(RocketID);
 }
-else if (_wep[PlasmaID])
+
+if (_wep[PlasmaID])
 {
 	SetNewWeapon(PlasmaID);
 }
-else if (_wep[BHGID])
+
+if (_wep[BHGID])
 {
 	SetNewWeapon(BHGID);
 }

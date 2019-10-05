@@ -36,7 +36,6 @@ switch (currentCastState)
 		if (castExecuteCount > 0)
 		{
 			isShooting = true;
-			ExecuteShootModeNormal;
 			if (shotCount == castExecuteCount)
 			{
 				isShooting = false;
@@ -44,16 +43,14 @@ switch (currentCastState)
 				currentCastState = CastState.Idle;
 			}
 		}
-		else if (castExecuteCount <= 0)
+		if (castExecuteCount == 0)
 		{
-			if (isShooting)
-			{
-				ExecuteShootModeNormal;
-			}
-			else
+			if (!isShooting)
 			{
 				currentCastState = CastState.Idle;
 			}
 		}
+		
+		ExecuteShootModeNormal;
 	break;
 }

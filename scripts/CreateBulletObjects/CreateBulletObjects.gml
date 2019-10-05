@@ -1,11 +1,12 @@
-/// @param bulletsArray
+/// @param bulletsList
 
-var _bulletsArray = argument0;
+var _bulletsList = argument0;
 
 for (var i = 0; i < bulletNumber; i++)
 {
-	_bulletsArray[i] = SpawnBullet();
-	with (_bulletsArray[i])
+	var _bullet = SpawnBullet();
+	ds_list_add(_bulletsList, _bullet);
+	with (_bullet)
 	{
 		collisionTargets = other.collisionTargets;
 		drawScaleYMax = other.hitscanScaleY;
@@ -13,5 +14,3 @@ for (var i = 0; i < bulletNumber; i++)
 		y = other.bulletSpawnPointY;
 	}
 }
-
-return _bulletsArray;

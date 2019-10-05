@@ -1,12 +1,30 @@
 // Parameters
 enum PlayerAmmo
 {
-	Pistol
+	Bullet,
+	Shell,
+	Rocket,
+	Energy
 }
 
-#macro PistolAmmoData ammoData[PlayerAmmo.Pistol]
+#macro BulletAmmoData	ammoData[PlayerAmmo.Bullet]
+#macro ShellAmmoData	ammoData[PlayerAmmo.Shell]
+#macro RocketAmmoData	ammoData[PlayerAmmo.Rocket]
+#macro EnergyAmmoData	ammoData[PlayerAmmo.Energy]
 
 // Ammo Data
-ammoData[PlayerAmmo.Pistol] = ds_map_create();
-ds_map_add(PistolAmmoData, "ammoCurrent",		100);
-ds_map_add(PistolAmmoData, "ammoCurrentMax",	100);
+ammoData[PlayerAmmo.Bullet] = ds_map_create();
+ds_map_add(BulletAmmoData, "ammoCurrent",		100);
+ds_map_add(BulletAmmoData, "ammoCurrentMax",	100);
+
+ammoData[PlayerAmmo.Shell] = ds_map_create();
+ds_map_add(ShellAmmoData, "ammoCurrent",		100);
+ds_map_add(ShellAmmoData, "ammoCurrentMax",		100);
+
+ammoData[PlayerAmmo.Rocket] = ds_map_create();
+ds_map_add(RocketAmmoData, "ammoCurrent",		100);
+ds_map_add(RocketAmmoData, "ammoCurrentMax",	100);
+
+ammoData[PlayerAmmo.Energy] = ds_map_create();
+ds_map_add(EnergyAmmoData, "ammoCurrent",		100);
+ds_map_add(EnergyAmmoData, "ammoCurrentMax",	100);

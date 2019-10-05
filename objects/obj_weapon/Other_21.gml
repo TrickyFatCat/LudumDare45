@@ -1,4 +1,4 @@
-/// @description ShootModeAutoHandler
+/// @description ShootModeNormalHandler
 
 switch (bulletObjectParent)
 {

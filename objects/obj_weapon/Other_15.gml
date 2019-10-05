@@ -12,5 +12,7 @@ else
 
 for (var i = 0; i < bulletNumber; i++)
 {
-	laserObjects[i].directionCurrent = bulletSpawnDirection + uniformSpreadStep * i;
+	var _bullet = laserObjects[| i];
+	
+	_bullet.directionCurrent = bulletSpawnDirection + uniformSpreadStep * i;
 }

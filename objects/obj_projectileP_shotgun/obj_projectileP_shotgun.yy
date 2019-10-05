@@ -1,14 +1,14 @@
 {
-    "id": "e59a2c9f-6ab4-4ca0-9dd7-a0d06824a77f",
+    "id": "62899c42-f142-4a87-91cd-97ef5e58b5c5",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_laserP_laser",
+    "name": "obj_projectileP_shotgun",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "0bb250f5-1602-4ae0-b1e5-44dba08fbfca",
+    "parentObjectId": "8bc59278-1d19-4d1b-9285-5d93a09ae3e5",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "167c6dff-96d5-4d4a-b95d-9b301f5e21d9",
+    "spriteId": "9ae30bb3-2fca-4dad-a1db-a6841b29c5e1",
     "visible": true
 }

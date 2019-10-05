@@ -62,8 +62,8 @@ bulletSpawnPointY = y - z;
 bulletSpawnDirection = 0;
 bulletNumber = 0;
 bulletObject = 0;
-laserObjects = noone;
-hitscanObjects = noone;
+laserObjects = ds_list_create();
+hitscanObjects = ds_list_create();
 #endregion
 
 #region // ShootMods
@@ -123,8 +123,7 @@ shotCount = 0;
 rotationOffset = 1;
 rotationOffsetX = 0;
 rotationOffsetY = 0;
-z = 8;
+offsetZ = 0;
 
 // Dissolve shader parameters
-//drawAlpha = 0;
 SetDissolveSettings(spr_dissolve_00, image_index, c_green, c_aqua, 0.01);

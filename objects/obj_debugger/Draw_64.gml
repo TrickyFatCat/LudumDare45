@@ -70,17 +70,16 @@ if (instance_exists(obj_player))
 		draw_text(5, 180, "Current State: " + _state);
 		draw_text(5, 200, "Health Points: " + string(healthPointsCurrent) + "/" + string(healthPointsMax));
 		draw_text(5, 220, "Current Ammo: " + string(ammoCurrent) + "/" + string(ammoCurrentMax));
-		//var _isShooting;
-		//if (activeWeapon.isShooting)
-		//{
-		//	_isShooting = "True";
-		//}
-		//else
-		//{
-		//	_isShooting = "False";
-		//}
-		//draw_text(5, 240, "Is shooting: " + _isShooting);
-		draw_text(5, 240, "WeaponROF: " + string(activeWeapon.rateOfFireCurrent));
+		var _isShooting;
+		if (activeWeapon.isShooting)
+		{
+			_isShooting = "True";
+		}
+		else
+		{
+			_isShooting = "False";
+		}
+		draw_text(5, 240, "Is shooting: " + _isShooting);
 		draw_text(5, 260, "WeaponID: " + string(weaponID) + " | AmmoID: " + string(ammoID));
 		draw_set_color(c_white);
 	}

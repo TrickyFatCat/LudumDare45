@@ -13,7 +13,9 @@ else
 // Sequence
 for (var i = 0; i < bulletNumber; i++)
 {
-	with (hitscanObjects[i])
+	var _bullet = hitscanObjects[| i];
+	
+	with (_bullet)
 	{
 		directionCurrent = other.bulletSpawnDirection + other.uniformSpreadStep * i;
 		drawAngle = directionCurrent;
