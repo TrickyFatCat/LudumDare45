@@ -1,23 +1,14 @@
 {
-    "id": "57c76b83-8bea-43cb-9aec-a563e17d6c62",
+    "id": "b5f008aa-3f9e-461c-b130-9645b5d3d349",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_projectileP_rocketlauncher",
+    "name": "obj_explosionP_rocket",
     "eventList": [
-        {
-            "id": "b654f6a8-309d-426a-b5ff-c609ff08e709",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 1,
-            "m_owner": "57c76b83-8bea-43cb-9aec-a563e17d6c62"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "8bc59278-1d19-4d1b-9285-5d93a09ae3e5",
+    "parentObjectId": "bcd0b3b4-e3b0-4e37-9dd3-6c75f39d591f",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "9ae30bb3-2fca-4dad-a1db-a6841b29c5e1",
+    "spriteId": "01113779-def4-4821-99f0-3358ebd5b9dc",
     "visible": true
 }

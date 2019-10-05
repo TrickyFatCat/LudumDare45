@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_laserP_bighonkgun",
     "eventList": [
-        
+        {
+            "id": "01011a45-e6c5-4a90-b19e-c8b6b4fd40b3",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "e59a2c9f-6ab4-4ca0-9dd7-a0d06824a77f"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

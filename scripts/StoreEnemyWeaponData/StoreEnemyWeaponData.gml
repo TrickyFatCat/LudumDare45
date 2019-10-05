@@ -8,7 +8,7 @@ enum EnemyWeapon
 
 // Weapons data
 weaponData[EnemyWeapon.Pistol] = ds_map_create();
-ds_map_add(EnemyPistolData, "weaponSprite",					spr_weapon2);
+ds_map_add(EnemyPistolData, "weaponSprite",					spr_weapon_doubleshotgun);
 ds_map_add(EnemyPistolData, "offsetZ",						4);
 ds_map_add(EnemyPistolData, "laserSightEnabled",			false);
 ds_map_add(EnemyPistolData, "isAuto",						true);

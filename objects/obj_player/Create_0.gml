@@ -15,7 +15,7 @@ event_inherited();
 #macro ChangeWeapon			event_user(10)
 
 //Set shadow
-var _shadowScale = 2;
+var _shadowScale = 1;
 SetShadowParametrs(true, _shadowScale);
 
 //Movement parameters
@@ -54,7 +54,8 @@ SetWeapon(activeWeapon, weaponID);
 
 // Set player weapon ammo
 StorePlayerAmmoData();
-SetAmmoParameters(activeWeapon.ammoID, ammoData);
+ammoID = activeWeapon.ammoID;
+SetAmmoParameters(ammoID, ammoData);
 
 // Dissolve settings
 drawAlpha = 0;

@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "01113779-def4-4821-99f0-3358ebd5b9dc",
+            "Value": {
+                "id": "7b880c5c-7abf-4f82-9016-e68e6c5e4642",
+                "resourcePath": "sprites\\spr_explosion\\spr_explosion.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "035d4274-6c6b-4991-a2ae-2f503d4418ed",
             "Value": {
                 "id": "543b7c11-44a3-45cb-a67a-84927657c2b5",
@@ -583,6 +591,14 @@
             }
         },
         {
+            "Key": "3cba939c-1188-40bd-8e41-eedbd15a8950",
+            "Value": {
+                "id": "72db59c7-8bb4-451c-8d6b-7641cb17904d",
+                "resourcePath": "views\\3cba939c-1188-40bd-8e41-eedbd15a8950.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "3deccc7c-d448-4397-8808-e589fd558b75",
             "Value": {
                 "id": "64228c1f-7e1b-49d8-a60e-58bca7a94626",
@@ -607,19 +623,19 @@
             }
         },
         {
-            "Key": "463b2ab0-ec54-43ad-93ed-8b99044b370f",
-            "Value": {
-                "id": "cdf0c1d8-fffc-48d7-9128-e20b57edd9cb",
-                "resourcePath": "sprites\\spr_weapon2\\spr_weapon2.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "4835be66-69a1-4e73-abed-3c9103768a52",
             "Value": {
                 "id": "25fa5f50-c69d-411d-8c3a-45553896d6e0",
                 "resourcePath": "objects\\obj_weapon_enemy\\obj_weapon_enemy.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "49047a4d-83ef-4a59-b9e8-d00af24164b8",
+            "Value": {
+                "id": "9961578b-2be3-49c6-8ed5-3dcd9b613035",
+                "resourcePath": "views\\49047a4d-83ef-4a59-b9e8-d00af24164b8.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -831,14 +847,6 @@
             }
         },
         {
-            "Key": "5eee42ed-3cdb-4ae9-bd32-dff4b16bb06e",
-            "Value": {
-                "id": "01efe25c-a867-43bd-9ab5-f4134b43ca49",
-                "resourcePath": "sprites\\sprite17\\sprite17.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "5f8e02de-d13b-44c4-8d8c-1a7bb3410717",
             "Value": {
                 "id": "20262b06-6033-474a-837b-bff0434bd50b",
@@ -884,6 +892,14 @@
                 "id": "677c02b2-0934-4251-adf4-665c10e8f765",
                 "resourcePath": "scripts\\CalculateDeceleratedVelocity\\CalculateDeceleratedVelocity.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "646f53ee-190d-4761-bc74-30223316f6ae",
+            "Value": {
+                "id": "5dfdfdb1-c596-44dd-acbe-b8c878bc9c2c",
+                "resourcePath": "views\\646f53ee-190d-4761-bc74-30223316f6ae.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1479,6 +1495,14 @@
             }
         },
         {
+            "Key": "b5f008aa-3f9e-461c-b130-9645b5d3d349",
+            "Value": {
+                "id": "9823f72f-a5f2-4c36-8832-caa5715f905c",
+                "resourcePath": "objects\\obj_explosionP_rocket\\obj_explosionP_rocket.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b633b1b9-f6b8-480f-9331-9a9f73237af3",
             "Value": {
                 "id": "0f079c40-d979-45aa-b709-8091e6517ba1",
@@ -1620,6 +1644,14 @@
                 "id": "8d15d7ac-6a7a-417b-a5f3-3a2ab92a15a3",
                 "resourcePath": "sprites\\spr_enemy_test_idle\\spr_enemy_test_idle.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c97d96a2-73d4-4f97-9260-1b391a430f00",
+            "Value": {
+                "id": "0a4d08bd-bb50-490d-891b-a3dcf856a773",
+                "resourcePath": "views\\c97d96a2-73d4-4f97-9260-1b391a430f00.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

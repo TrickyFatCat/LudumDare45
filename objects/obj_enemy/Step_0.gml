@@ -11,6 +11,7 @@ switch (currentState)
 	break;
 	
 	case EntityState.TargetSearch:
+		ChangeSpriteTo(spriteIdle);
 		ExecuteStateTargetSearch;
 	break;
 	
@@ -20,10 +21,12 @@ switch (currentState)
 	break;
 	
 	case EntityState.Action:
+		ChangeSpriteTo(spriteIdle);
 		ExecuteStateAction;
 	break;
 	
 	case EntityState.Trancendence:
+		ChangeSpriteTo(spriteIdle);
 		ExecuteStateTrancendence;
 	break;
 	
