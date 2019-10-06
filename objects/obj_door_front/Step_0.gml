@@ -5,7 +5,6 @@ switch (currentState)
 	case DoorState.Closed:
 		image_speed = 0;
 		
-		
 		var _offsetY = lengthdir_y(32, 90);
 		var _y = y + _offsetY;
 		var _offsetXX = lengthdir_x(128, 0);
@@ -14,6 +13,7 @@ switch (currentState)
 		var _yy = _y + _offsetYY;
 		
 		var _playerIsNear = collision_rectangle(x, _y, _xx, _yy, obj_player, true, true);
+		var _enemyIsNear = collision_rectangle(x, _y, _xx, _yy, obj_enemy, true, true);
 		
 		if (_playerIsNear)
 		{
@@ -22,6 +22,11 @@ switch (currentState)
 			{
 				currentState = DoorState.TransitionOpen;
 			}
+		}
+		
+		if (_enemyIsNear)
+		{
+			currentState = DoorState.TransitionOpen;
 		}
 	break;
 	
@@ -55,9 +60,17 @@ switch (currentState)
 			var _playerDirection = point_direction(x, y, other.x, other.y) + 180;
 			while (place_meeting(x, y, other))
 			{
-				//var push_x = lengthdir_x(_pushSpeed, _playerDirection);
 				var push_y = lengthdir_y(_pushSpeed, _playerDirection);
-				//x += push_x;
+				y += push_y;	
+			}
+		}
+		
+		with obj_enemy
+		{
+			var _playerDirection = point_direction(x, y, other.x, other.y) + 180;
+			while (place_meeting(x, y, other))
+			{
+				var push_y = lengthdir_y(_pushSpeed, _playerDirection);
 				y += push_y;	
 			}
 		}

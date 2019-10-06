@@ -17,8 +17,5 @@ if (global.ActiveGamepad != noone)
 
 if (mouse_check_button_pressed(mb_right))
 {
-	for (var i = 0; i < 12; i++)
-	{
-		instance_create_layer(mouse_x, mouse_y, layer, vfx_splatter_blood);
-	}
+	SpawnSplatterEffect(mouse_x, mouse_y, vfx_splatter_blood, 100, 8);
 }

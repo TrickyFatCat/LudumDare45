@@ -1,60 +1,62 @@
 // Parameters
 enum EnemyWeapon
 {
-	Pistol
+	Pistol,
+	ImpFireball
 }
 
 #macro EnemyPistolData weaponData[EnemyWeapon.Pistol]
+#macro ImpFireballData weaponData[EnemyWeapon.ImpFireball]
 
 // Weapons data
-weaponData[EnemyWeapon.Pistol] = ds_map_create();
-ds_map_add(EnemyPistolData, "weaponSprite",					spr_weapon_doubleshotgun);
-ds_map_add(EnemyPistolData, "offsetZ",						4);
-ds_map_add(EnemyPistolData, "laserSightEnabled",			false);
-ds_map_add(EnemyPistolData, "isAuto",						true);
-ds_map_add(EnemyPistolData, "currentShootMode",				ShootMode.Normal);
+weaponData[EnemyWeapon.ImpFireball] = ds_map_create();
+ds_map_add(ImpFireballData, "weaponSprite",					noone);
+ds_map_add(ImpFireballData, "offsetZ",						4);
+ds_map_add(ImpFireballData, "laserSightEnabled",			false);
+ds_map_add(ImpFireballData, "isAuto",						true);
+ds_map_add(ImpFireballData, "currentShootMode",				ShootMode.Normal);
 //-----------------------------------------------------------------------------
-ds_map_add(EnemyPistolData, "bulletObject",					obj_projectileE_pistol);
-ds_map_add(EnemyPistolData, "bulletNumber",					1);
-ds_map_add(EnemyPistolData, "bulletSpawnPointOffset",		3);
+ds_map_add(ImpFireballData, "bulletObject",					obj_projectileE_fireball);
+ds_map_add(ImpFireballData, "bulletNumber",					1);
+ds_map_add(ImpFireballData, "bulletSpawnPointOffset",		0);
 //-----------------------------------------------------------------------------
-ds_map_add(EnemyPistolData, "damage",						5);
-ds_map_add(EnemyPistolData, "heal",							10);
+ds_map_add(ImpFireballData, "damage",						5);
+ds_map_add(ImpFireballData, "heal",							0);
 //-----------------------------------------------------------------------------
-ds_map_add(EnemyPistolData, "rateOfFireAccelerated",		false);
-ds_map_add(EnemyPistolData, "rateOfFireIncrStep",			0.5);
-ds_map_add(EnemyPistolData, "rateOfFireDecrStep",			0.5);
-ds_map_add(EnemyPistolData, "rateOfFireMin",				1);
-ds_map_add(EnemyPistolData, "rateOfFireMax",				8);
+ds_map_add(ImpFireballData, "rateOfFireAccelerated",		false);
+ds_map_add(ImpFireballData, "rateOfFireIncrStep",			0);
+ds_map_add(ImpFireballData, "rateOfFireDecrStep",			0);
+ds_map_add(ImpFireballData, "rateOfFireMin",				2);
+ds_map_add(ImpFireballData, "rateOfFireMax",				0);
 //-----------------------------------------------------------------------------
-ds_map_add(EnemyPistolData, "burstPauseTime",				1.5);
-ds_map_add(EnemyPistolData, "burstShotsNumber",				4);
+ds_map_add(ImpFireballData, "burstPauseTime",				0);
+ds_map_add(ImpFireballData, "burstShotsNumber",				0);
 //-----------------------------------------------------------------------------
-ds_map_add(EnemyPistolData, "castExecuteCount",				false);
-ds_map_add(EnemyPistolData, "castTime",						1.5);
+ds_map_add(ImpFireballData, "castExecuteCount",				false);
+ds_map_add(ImpFireballData, "castTime",						0);
 //-----------------------------------------------------------------------------
-ds_map_add(EnemyPistolData, "spreadIsDynamic",				false);
-ds_map_add(EnemyPistolData, "spreadIsUniform",				false);
-ds_map_add(EnemyPistolData, "spreadAngleIncrFactor",		1);
-ds_map_add(EnemyPistolData, "spreadAngleDecrFactor",		5);
-ds_map_add(EnemyPistolData, "spreadAngleMin",				10);
-ds_map_add(EnemyPistolData, "spreadAngleMax",				10);
+ds_map_add(ImpFireballData, "spreadIsDynamic",				false);
+ds_map_add(ImpFireballData, "spreadIsUniform",				false);
+ds_map_add(ImpFireballData, "spreadAngleIncrFactor",		0);
+ds_map_add(ImpFireballData, "spreadAngleDecrFactor",		0);
+ds_map_add(ImpFireballData, "spreadAngleMin",				5);
+ds_map_add(ImpFireballData, "spreadAngleMax",				0);
 //-----------------------------------------------------------------------------
-ds_map_add(EnemyPistolData, "ammoID",						-1);
-ds_map_add(EnemyPistolData, "shootAmmoCost",				0);
+ds_map_add(ImpFireballData, "ammoID",						-1);
+ds_map_add(ImpFireballData, "shootAmmoCost",				0);
 //-----------------------------------------------------------------------------
-ds_map_add(EnemyPistolData, "recoilPower",					20);
-ds_map_add(EnemyPistolData, "recoilFactor",					0.3);
+ds_map_add(ImpFireballData, "recoilPower",					0);
+ds_map_add(ImpFireballData, "recoilFactor",					0);
 //-----------------------------------------------------------------------------
-ds_map_add(EnemyPistolData, "hitscanScaleY",				2);
-ds_map_add(EnemyPistolData, "projectileVelocityCurrent",	15);
-ds_map_add(EnemyPistolData, "projectileVelocityMax",		3);
-ds_map_add(EnemyPistolData, "projectileAcceleration",		0);
-ds_map_add(EnemyPistolData, "projectileFriction",			0.1);
-ds_map_add(EnemyPistolData, "projectileBounceEnable",		true);
-ds_map_add(EnemyPistolData, "projectileBounceFriction",		2);
+ds_map_add(ImpFireballData, "hitscanScaleY",				0);
+ds_map_add(ImpFireballData, "projectileVelocityCurrent",	2.5);
+ds_map_add(ImpFireballData, "projectileVelocityMax",		0);
+ds_map_add(ImpFireballData, "projectileAcceleration",		0);
+ds_map_add(ImpFireballData, "projectileFriction",			0);
+ds_map_add(ImpFireballData, "projectileBounceEnable",		false);
+ds_map_add(ImpFireballData, "projectileBounceFriction",		0);
 //-----------------------------------------------------------------------------
-ds_map_add(EnemyPistolData, "isShackingCamera",				false);
-ds_map_add(EnemyPistolData, "angularShakeEnabled",			true);
-ds_map_add(EnemyPistolData, "shakeValue",					2);
-ds_map_add(EnemyPistolData, "shotShakeFactor",				0.05);
+ds_map_add(ImpFireballData, "isShackingCamera",				false);
+ds_map_add(ImpFireballData, "angularShakeEnabled",			false);
+ds_map_add(ImpFireballData, "shakeValue",					0);
+ds_map_add(ImpFireballData, "shotShakeFactor",				0);

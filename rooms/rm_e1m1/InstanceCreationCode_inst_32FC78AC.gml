@@ -1,0 +1,1 @@
+targetSpawn = spawn_00;

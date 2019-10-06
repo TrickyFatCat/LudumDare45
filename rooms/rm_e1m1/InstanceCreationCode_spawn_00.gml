@@ -1,0 +1,1 @@
+AddEnemyToSpawn(0, obj_enemy_imp, 8);

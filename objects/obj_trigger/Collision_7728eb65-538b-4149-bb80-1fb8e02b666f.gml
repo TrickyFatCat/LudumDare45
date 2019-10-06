@@ -1,1 +1,4 @@
-/// @description Insert description here
+if (currentState == TriggerState.Idle)
+{
+	currentState = TriggerState.Active;
+}

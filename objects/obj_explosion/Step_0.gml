@@ -5,7 +5,9 @@ if (dealingDamage)
 	{
 		//Create and fill pickups
 		var _targetsList = ds_list_create();
-		collision_circle_list(x, y, explosionRadius, obj_entity, true, true, _targetsList, true);
+		collision_circle_list(x, y, explosionRadius, obj_player, true, true, _targetsList, true);
+		collision_circle_list(x, y, explosionRadius, obj_enemy, true, true, _targetsList, true);
+		collision_circle_list(x, y, explosionRadius, obj_barrel, true, true, _targetsList, true);
 	
 		if (!ds_list_empty(_targetsList))
 		{
@@ -21,6 +23,15 @@ if (dealingDamage)
 					{
 						DealDamage(other.damage);
 						directionCurrent = point_direction(x, y, other.x, other.y) - 180;
+						if (_target == obj_enemy)
+						{
+							show_debug_message(other.damage);
+						}
+					}
+					
+					if (_target == obj_barrel)
+					{
+						
 					}
 				}
 			}

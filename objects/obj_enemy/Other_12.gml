@@ -1,11 +1,8 @@
 /// @description StateIdleController
 
-testTimer += global.TimeFactor;
-		
-var _checkTimer = check_timer(testTimer, testTime)
-		
-if (_checkTimer)
+var _distanceToPlayer = point_distance(x, y, playerX, playerY);
+
+if (_distanceToPlayer <= aggroRadius)
 {
-	testTimer = 0;
 	currentState = EntityState.TargetSearch;
 }

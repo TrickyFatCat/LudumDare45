@@ -316,7 +316,7 @@ ds_map_add(RocketData, "bulletObject",				obj_projectileP_rocketlauncher);
 ds_map_add(RocketData, "bulletNumber",				1);
 ds_map_add(RocketData, "bulletSpawnPointOffset",	19);
 //-----------------------------------------------------------------------------
-ds_map_add(RocketData, "damage",					5);
+ds_map_add(RocketData, "damage",					50);
 ds_map_add(RocketData, "heal",						0);
 //-----------------------------------------------------------------------------
 ds_map_add(RocketData, "rateOfFireAccelerated",		false);

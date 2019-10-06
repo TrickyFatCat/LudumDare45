@@ -19,6 +19,6 @@ if (path_get_length(path) > 0)
 else
 {
 	pathSpeed = 0;
-	velocityCurrent = 0;
-	currentState = EntityState.Action;
+velocityCurrent = 0;
+currentState = EntityState.Action;
 }

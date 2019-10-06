@@ -9,7 +9,7 @@ global.IdealHeight = 0;
 resolutionZoom = 1;
 resolutionZoomMax = 1;
 interfaceZoom = 1;
-viewZoom = 1.5;
+viewZoom = 1;
 viewZoomMax = 20;
 
 // Sequence

@@ -1,6 +1,14 @@
 /// @description MovementSequence
 
-MoveObject();
+if (acceleration > 0 || groundFriction > 0)
+{
+	MoveObject();
+}
+else
+{
+	x += velocityX * global.TimeFactor;
+	y += velocityY * global.TimeFactor;
+}
 
 #region // Calculate velocity
 if (acceleration > 0)

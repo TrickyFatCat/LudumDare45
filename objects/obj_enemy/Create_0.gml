@@ -12,6 +12,7 @@ event_inherited();
 #macro ExecuteStateAction		event_user(5)
 #macro ExecuteStateTrancendence event_user(6)
 #macro ExecuteStateDeath		event_user(7)
+#macro StopMoving				event_user(7)
 
 // Test Timers
 testTimer = 0;
@@ -32,7 +33,6 @@ targetY = 0.0;
 StoreEnemyWeaponData();
 activeWeapon = instance_create_layer(x, y, layer, obj_weapon_enemy);
 activeWeapon.visible = false;
-PlaceEnemyWeapon;
 
 // Base states
 enum EntityState
@@ -46,3 +46,12 @@ enum EntityState
 }
 
 currentState = EntityState.Idle;
+
+// Targets
+enum TargetToSearch
+{
+	Self,
+	Player
+}
+
+currentTarget = TargetToSearch.Self;

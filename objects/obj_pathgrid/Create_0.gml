@@ -13,6 +13,6 @@ var _cellsNumberVertical = room_width / global.PathCellHeight;
 global.PathGrid = mp_grid_create(0, 0, _cellsNumberHorizontal, _cellsNumberVertical, global.PathCellWidth, global.PathCellHeight);
 
 //Add obstacles
-mp_grid_add_instances(global.PathGrid, obj_obstacle, true);
+mp_grid_add_instances(global.PathGrid, obj_wall, true);
 mp_grid_add_instances(global.PathGrid, obj_well, true);
 mp_grid_add_instances(global.PathGrid, obj_pit, true);
