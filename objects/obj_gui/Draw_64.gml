@@ -10,7 +10,7 @@ switch currentState
 		DrawMenuBackground;
 		DrawInterface;
 	break;
-	
+
 	case InterfaceState.TransitionOut:
 		DrawTransitionScreen;
 	break;

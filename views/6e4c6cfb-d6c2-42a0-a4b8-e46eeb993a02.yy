@@ -18,7 +18,9 @@
         "ead5c4da-97e0-4d4d-875e-b0988d8a9ab4",
         "4c2a3f0f-f3e8-4f15-a613-181429fe0a95",
         "49afe349-d844-4337-8693-04912085b865",
-        "0502cb0d-377c-4412-931f-1994896ed5cf"
+        "0502cb0d-377c-4412-931f-1994896ed5cf",
+        "efb60200-b2e4-4350-97a5-879a28efc6f8",
+        "4cfef632-1cc4-4279-ba3e-ddbb134e086d"
     ],
     "filterType": "GMScript",
     "folderName": "Additional Functions",

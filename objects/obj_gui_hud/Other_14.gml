@@ -10,6 +10,8 @@ var _speed = set_step(0.25);
 switch hudCurrentState
 {
 	case HUDState.Active:
+		
+		
 		if (obj_gameManager.keyPause)
 		{
 			hudCurrentState = HUDState.PauseIn;
@@ -25,6 +27,8 @@ switch hudCurrentState
 		global.TimeFactor = approach(global.TimeFactor, 0, _speed);
 		
 		menuBackGroundAlpha = lerp(0.75, 0, global.TimeFactor);
+		logoAlpha = lerp(1, 0, global.TimeFactor);
+		hudAlpha = lerp(0, 1, global.TimeFactor);
 		
 		if (global.TimeFactor == 0)
 		{
@@ -47,6 +51,8 @@ switch hudCurrentState
 		global.TimeFactor = approach(global.TimeFactor, 1, _speed);
 		
 		menuBackGroundAlpha = lerp(0.75, 0, global.TimeFactor);
+		logoAlpha = lerp(1, 0, global.TimeFactor);
+		hudAlpha = lerp(0, 1, global.TimeFactor);
 		
 		if (global.TimeFactor == 1 && menuX < 150)
 		{

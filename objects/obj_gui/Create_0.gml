@@ -40,3 +40,4 @@ menuItemHeight = font_get_size(guiFont);
 menuCurrentAction = noone;
 menuIsActive = true;
 menuBackGroundAlpha = 0;
+logoAlpha = 1;

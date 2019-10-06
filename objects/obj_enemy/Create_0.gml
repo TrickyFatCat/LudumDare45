@@ -58,7 +58,7 @@ enum TargetToSearch
 	Player
 }
 
-currentTarget = TargetToSearch.Self;
+currentTarget = TargetToSearch.Player;
 
 drawAlpha = 0;
 SetDissolveSettings(spr_dissolve_00,image_index, c_orange, c_yellow, 0.1)

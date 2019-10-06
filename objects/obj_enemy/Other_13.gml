@@ -1,7 +1,6 @@
 /// @description StateTargetSearchController
 
 var _cellSize = global.PathCellWidth;
-var _targetDirection = irandom_range(0.0, 359.0);
 var _pointX;
 var _pointY;
 
@@ -19,11 +18,13 @@ else
 switch (currentTarget)
 {
 	case TargetToSearch.Self:
+		var _targetDirection = irandom_range(0.0, 359.0);
 		_pointX = x + lengthdir_x(changePositionRadius, _targetDirection);
 		_pointY = y + lengthdir_y(changePositionRadius, _targetDirection);
 	break;
 	
 	case TargetToSearch.Player:
+		var _targetDirection = point_distance(x, y, playerX, playerY);
 		_pointX = playerX + lengthdir_x(attackRadiusMin, _targetDirection);
 		_pointY = playerY + lengthdir_y(attackRadiusMin, _targetDirection);
 	break;
