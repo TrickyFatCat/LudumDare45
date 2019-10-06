@@ -53,7 +53,7 @@
             "mvc": "1.0",
             "objectId": "7ab07137-5aa7-409c-afd4-526a4f47cc00",
             "propertyId": "eb371e07-7fbb-4973-ace3-7efa525bf8d4",
-            "value": "rm_e1m1"
+            "value": "rm_finishmenu"
         }
     ],
     "parentObjectId": "7ab07137-5aa7-409c-afd4-526a4f47cc00",

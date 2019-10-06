@@ -37,6 +37,7 @@ activeWeapon.visible = false;
 // Base states
 enum EntityState
 {
+	Spawn,
 	Idle,
 	TargetSearch,
 	Move,
@@ -46,6 +47,9 @@ enum EntityState
 }
 
 currentState = EntityState.Idle;
+
+idleTime = set_time(0.4);
+idleTimer = 0;
 
 // Targets
 enum TargetToSearch

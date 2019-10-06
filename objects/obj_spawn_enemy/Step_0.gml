@@ -38,11 +38,20 @@ switch (currentState)
 		{
 			spawnProgress = 0;
 			currentState = SpawnPointState.Occupied;
+			owner = instance_create_layer(x, y, "entities", owner);
 		}
 	break;
 	
 	case SpawnPointState.Occupied:
 		drawColour = c_red;
+		
+		var _owenerExists = instance_exists(owner);
+		
+		if (!_owenerExists)
+		{
+			owner = noone;
+			currentState = SpawnPointState.Active;
+		}
 		
 		if (revealProgress != 0)
 		{
@@ -52,19 +61,5 @@ switch (currentState)
 			
 			drawAlpha = lerp_timefactor(0.25, 1, revealProgress);
 		}
-		else
-		{
-			testTimer += global.TimeFactor;
-			
-			var _checkTime = check_timer(testTimer, testTime);
-			
-			if (_checkTime)
-			{
-				testTimer = 0;
-				
-				currentState = SpawnPointState.Active;
-			}
-		}
-		
 	break;
 }

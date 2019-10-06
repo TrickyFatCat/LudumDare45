@@ -19,6 +19,17 @@ switch (global.BattleState)
 			
 	case BattleState.Active:
 		global.PlayTime += global.TimeFactor;
+		
+		if (array_length_1d(difficultyIncreaseTime) - 1 >= global.DifficultyLevel)
+		{
+			var _checkTimer = check_timer(global.PlayTime, difficultyIncreaseTime[global.DifficultyLevel])
+			
+			if (_checkTimer)
+			{
+				global.DifficultyLevel++;
+				show_debug_message(global.DifficultyLevel)
+			}
+		}
 	break;
 			
 	case BattleState.End:

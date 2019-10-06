@@ -3,8 +3,10 @@
 
 var _weapon = argument0;
 var _weaponID = argument1;
+var _id = id;
+var _weaponData = weaponData;
 
 with (_weapon)
 {
-	SetWeaponParameters(other.id, _weaponID, other.weaponData);
+	SetWeaponParameters(_id, _weaponID, _weaponData);
 }

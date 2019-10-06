@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "0520fd44-9492-4b73-a6f5-dc8fc35bb0bf",
+            "Value": {
+                "id": "1a9f4091-b42c-4e81-9ad2-d57ea1f3adc9",
+                "resourcePath": "sprites\\spr_imp_kamikaze_run\\spr_imp_kamikaze_run.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0561f6cd-6780-475d-81d6-cc4f725d6749",
             "Value": {
                 "id": "a056ff90-c000-4342-839b-6e15f3a2db68",
@@ -783,14 +791,6 @@
             }
         },
         {
-            "Key": "3de2fa76-7e61-4c3c-9055-8eb56779f728",
-            "Value": {
-                "id": "d97221d6-f926-4f4f-8655-0584b9183eb2",
-                "resourcePath": "rooms\\rm_e1m3\\rm_e1m3.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "3deccc7c-d448-4397-8808-e589fd558b75",
             "Value": {
                 "id": "64228c1f-7e1b-49d8-a60e-58bca7a94626",
@@ -891,6 +891,14 @@
             "Value": {
                 "id": "a91c9847-8160-4cec-99bb-1b556cb83e3e",
                 "resourcePath": "objects\\obj_pickup\\obj_pickup.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "498758af-e30d-4b7b-8a7d-703c0b73521c",
+            "Value": {
+                "id": "e61ce8b6-b692-4da4-baa3-7d502f8b6354",
+                "resourcePath": "objects\\obj_enemy_imp_kamikaze\\obj_enemy_imp_kamikaze.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1335,6 +1343,14 @@
             }
         },
         {
+            "Key": "6f8e7c1f-a8b0-4db7-8ed4-5c28499d4c09",
+            "Value": {
+                "id": "c5fe9bf2-10b5-4801-be8b-4eb1ea7ac693",
+                "resourcePath": "objects\\obj_enemy_zombie_shotgun\\obj_enemy_zombie_shotgun.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "70c9a88e-87ea-4403-ba0e-82b2e293e216",
             "Value": {
                 "id": "ee936cc1-13c8-4e3a-bef2-7ce4ae399f88",
@@ -1355,6 +1371,14 @@
             "Value": {
                 "id": "0ee46a68-84e3-4246-9378-d4ab52160e88",
                 "resourcePath": "objects\\obj_spawn_zone\\obj_spawn_zone.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "73c94b9c-7c3b-41be-a518-a1110c065f4c",
+            "Value": {
+                "id": "760a4c27-461e-4593-b0a9-29def2144e10",
+                "resourcePath": "objects\\obj_enemy_zombie_rocketlauncher\\obj_enemy_zombie_rocketlauncher.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1532,6 +1556,14 @@
                 "id": "77bb522a-cb01-4984-adaf-81e75e3db163",
                 "resourcePath": "scripts\\approach\\approach.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "852ded7d-d019-4904-adbd-0510d5e1cfa5",
+            "Value": {
+                "id": "104cb8ae-1055-4db5-a838-def66f79ff11",
+                "resourcePath": "objects\\obj_enemy_imp_great\\obj_enemy_imp_great.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1967,14 +1999,6 @@
             }
         },
         {
-            "Key": "ad492dd5-2925-4a8c-bad4-8f1ae334e841",
-            "Value": {
-                "id": "31585357-48ae-46b8-8e1e-313809e80e22",
-                "resourcePath": "rooms\\rm_e1m4\\rm_e1m4.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "ad736be4-959f-4a37-b769-d4409b4bba94",
             "Value": {
                 "id": "2d19a867-7b5f-4a69-b7b6-f1c851e65f99",
@@ -2079,14 +2103,6 @@
             }
         },
         {
-            "Key": "b66c36f7-c9bd-4d64-856b-2de0204da865",
-            "Value": {
-                "id": "fa5d7b6b-0bec-4bd2-bf94-1af5addd4978",
-                "resourcePath": "rooms\\rm_e1m5\\rm_e1m5.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "b74f459b-75bb-4537-887d-653f1483cd3e",
             "Value": {
                 "id": "ca5e532c-e276-406c-8a01-5b03535b8d27",
@@ -2140,6 +2156,14 @@
                 "id": "17682ebe-bc14-48f6-99d5-83d350d389a8",
                 "resourcePath": "scripts\\SpawnBullet\\SpawnBullet.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "bc101484-cacf-4561-86ff-d46f8297ca8a",
+            "Value": {
+                "id": "b424c6da-7c9d-469b-97b0-85d1aa40e185",
+                "resourcePath": "sprites\\spr_imp_kamikaze_idle\\spr_imp_kamikaze_idle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2519,6 +2543,14 @@
             }
         },
         {
+            "Key": "d8606aff-330a-4be0-a0b3-7cdaf5a0e792",
+            "Value": {
+                "id": "79e8613d-7c79-469e-9eeb-b42c2c19eaa0",
+                "resourcePath": "objects\\obj_enemy_zombie_pistol\\obj_enemy_zombie_pistol.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "daa84467-80ff-46d8-ad33-6ee14b3613eb",
             "Value": {
                 "id": "03e182fa-d95d-42e1-b336-491b33e0d30b",
@@ -2740,14 +2772,6 @@
                 "id": "aff2a07e-6129-4644-8031-8b1827bc1d9b",
                 "resourcePath": "objects\\obj_spawnController\\obj_spawnController.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "f2840d90-3ede-4b48-a08e-b7ddf86c62d6",
-            "Value": {
-                "id": "22f99ac7-740d-43de-9b38-5a553450c63c",
-                "resourcePath": "rooms\\rm_e1m2\\rm_e1m2.yy",
-                "resourceType": "GMRoom"
             }
         },
         {

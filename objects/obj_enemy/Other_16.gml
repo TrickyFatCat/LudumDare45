@@ -13,6 +13,5 @@ if (drawScaleX < _targetScale)
 }
 else
 {
-	show_debug_message("meow")
 	currentState = EntityState.Death;
 }

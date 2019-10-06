@@ -21,3 +21,6 @@ spawnProgress = 0;
 
 testTime = set_time(5);
 testTimer = 0;
+
+owner = noone;
+enemyToSpawn = noone;

@@ -79,6 +79,20 @@
             "value": "0",
             "varName": "enemyCount",
             "varType": 1
+        },
+        {
+            "id": "859be3d0-5100-42da-948c-190cd805243d",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "attackOnSpawn",
+            "varType": 3
         }
     ],
     "solid": false,

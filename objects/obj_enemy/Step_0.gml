@@ -3,10 +3,26 @@
 // Inherit the parent event
 event_inherited();
 
-
+var _spawnTime = 1.5;
 
 switch (currentState)
 {
+	case EntityState.Spawn:
+		isInvulnerable = true;
+
+		ExecuteDissolveIn(_spawnTime);
+	
+		with (activeWeapon)
+		{
+			ExecuteDissolveIn(_spawnTime);
+		}
+	
+		if (dissolvePower == 1)
+		{
+			currentState = EntityState.Idle;
+		}
+	break;
+	
 	case EntityState.Idle:
 		ChangeSpriteTo(spriteIdle);
 		ExecuteStateIdle;

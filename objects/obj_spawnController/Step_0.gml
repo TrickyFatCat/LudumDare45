@@ -31,10 +31,29 @@ if (global.BattleState == BattleState.Active && _enemyCountCurrent < enemyCountM
 		{
 			var _spawnID = irandom_range(0, _activeListSize - 1);
 			var _pointForSpawn = _activeSpawnPoints[| _spawnID];
-		
-			// Choose enemy for spawn//
+			var _arrayLastIndex = array_length_1d(enemies) - 1;
 			
-			_pointForSpawn.currentState = SpawnPointState.Reveal;
+			while (!enemyIsChosen)
+			{
+				var _enemyID = irandom_range(0, _arrayLastIndex);
+				var _map = enemies[_enemyID];
+			
+				var _roll = irandom_range(1, weightSum);
+				var _weight = _map[? "spawn_weight"];
+				
+				if (_roll <= _weight)
+				{
+					enemyID = _map[? "enemy_id"];
+					enemyIsChosen = true;
+				}
+			}
+			
+			if (enemyIsChosen)
+			{
+				_pointForSpawn.owner = enemyID;
+				_pointForSpawn.currentState = SpawnPointState.Reveal;
+				enemyIsChosen = false;
+			}
 		}
 		
 		ds_list_destroy(_activeSpawnPoints);

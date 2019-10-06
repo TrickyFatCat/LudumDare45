@@ -3,7 +3,7 @@
 // Inherit the parent event
 event_inherited();
 
-weaponID = EnemyWeapon.Pistol;
+weaponID = EnemyWeapon.ImpFireball;
 SetWeapon(activeWeapon, weaponID);
 activeWeapon.visible = true;
 activeWeapon.isShooting = false;

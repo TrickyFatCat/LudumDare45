@@ -19,7 +19,7 @@ var _shadowScale = 1;
 SetShadowParametrs(true, _shadowScale);
 
 //Movement parameters
-velocityMax = 3.5;
+velocityMax = 3;
 acceleration = 0.1;
 groundFriction = 0.2;
 directionX = 0;

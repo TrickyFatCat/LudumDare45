@@ -1,8 +1,10 @@
 /// @description StateIdleController
 
-var _distanceToPlayer = point_distance(x, y, playerX, playerY);
+idleTimer += global.TimeFactor;
 
-if (_distanceToPlayer <= aggroRadius)
+var _timeIsOver = check_timer(idleTimer, idleTime);
+
+if (_timeIsOver)
 {
 	currentState = EntityState.TargetSearch;
 }

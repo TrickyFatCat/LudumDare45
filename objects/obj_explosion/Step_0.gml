@@ -23,15 +23,6 @@ if (dealingDamage)
 					{
 						DealDamage(other.damage);
 						directionCurrent = point_direction(x, y, other.x, other.y) - 180;
-						if (_target == obj_enemy)
-						{
-							show_debug_message(other.damage);
-						}
-					}
-					
-					if (_target == obj_barrel)
-					{
-						
 					}
 				}
 			}

@@ -12,6 +12,13 @@ if (isActive)
 			var _x = random_range(x, x + sprite_width);
 			var _y = random_range(y, y + sprite_height);
 			var _enemy = instance_create_layer(_x, _y, "entities", _enemyID);
+			if (attackOnSpawn)
+			{
+				with (_enemy)
+				{
+					currentState = EntityState.Move;
+				}
+			}
 		}
 	}
 }

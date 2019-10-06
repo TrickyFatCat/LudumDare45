@@ -13,3 +13,15 @@ timerIsTicking = false;
 
 velocityCurrent = 2;
 groundFriction = 0.075;
+
+enum BarrelState
+{
+	Spawn,
+	Idle,
+	Active
+}
+
+currentState = BarrelState.Active;
+
+idleTime = set_time(0.4);
+idleTimer = 0;
