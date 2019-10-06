@@ -23,9 +23,18 @@ weightSum = 0;
 enemyData[0, 0] = obj_enemy_imp_kamikaze;
 enemyData[0, 1] = 40;
 enemyData[1, 0] = obj_enemy_imp;
-enemyData[1, 1] = 1;
+enemyData[1, 1] = 20;
 enemyData[2, 0] = obj_barrel;
-enemyData[2, 1] = 30;
+enemyData[2, 1] = 20;
+enemyData[3, 0] = obj_enemy_zombie_pistol;
+enemyData[3, 1] = 10;
+enemyData[4, 0] = obj_enemy_zombie_shotgun;
+enemyData[4, 1] = 150;
+enemyData[5, 0] = obj_enemy_zombie_rocketlauncher;
+enemyData[5, 1] = 150;
+enemyData[6, 0] = obj_enemy_imp_great;
+enemyData[6, 1] = 4;
+
 
 enemies[global.DifficultyLevel] = ds_map_create();
 

@@ -14,7 +14,7 @@ enum SpawnPointState
 
 currentState = choose(SpawnPointState.Active, SpawnPointState.Inactive);
 
-drawAlpha = 0.25;
+drawAlpha = 0;
 
 revealProgress = 0;
 spawnProgress = 0;

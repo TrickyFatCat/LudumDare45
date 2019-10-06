@@ -2,6 +2,10 @@
 
 // Inherit the parent event
 event_inherited();
+
+velocityMax = 1;
+acceleration = 0.1;
+
 activeWeapon = instance_create_layer(x, y, layer, obj_weapon_enemy);
 weaponID = EnemyWeapon.ImpFireball;
 SetWeapon(activeWeapon, weaponID);

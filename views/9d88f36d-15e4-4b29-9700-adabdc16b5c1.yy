@@ -8,7 +8,8 @@
         "bcd0b3b4-e3b0-4e37-9dd3-6c75f39d591f",
         "f93c5b26-5b88-4944-b767-b4a7098f496d",
         "c6bc66e3-4c20-4233-ad1b-f87691f07d0c",
-        "646f53ee-190d-4761-bc74-30223316f6ae"
+        "646f53ee-190d-4761-bc74-30223316f6ae",
+        "3f04f741-baf1-41cc-8406-6f5ab45ad769"
     ],
     "filterType": "GMObject",
     "folderName": "Explosions",

@@ -4,7 +4,7 @@ var _spawnTime = 1.5;
 
 switch (currentState)
 {
-	case BarrelState.Spawn:
+	case EntityState.Spawn:
 		isInvulnerable = true;
 		
 		ExecuteDissolveIn(_spawnTime);
@@ -16,22 +16,22 @@ switch (currentState)
 	
 		if (dissolvePower == 1)
 		{
-			currentState = BarrelState.Idle;
+			currentState = EntityState.Idle;
 		}
 	break;
 	
-	case BarrelState.Idle:
+	case EntityState.Idle:
 		idleTimer += global.TimeFactor;
 
 		var _timeIsOver = check_timer(idleTimer, idleTime);
 
 		if (_timeIsOver)
 		{
-			currentState = BarrelState.Active;
+			currentState = EntityState.Action;
 		}
 	break;
 	
-	case BarrelState.Active:
+	case EntityState.Action:
 		isInvulnerable = false;
 		
 		if (healthPointsCurrent <= 0 && (!timerIsTicking))

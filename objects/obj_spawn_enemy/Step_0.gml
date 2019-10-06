@@ -1,15 +1,12 @@
 switch (currentState)
 {
 	case SpawnPointState.Inactive:
-		drawColour = c_gray;
 	break;
 	
 	case SpawnPointState.Active:
-		drawColour = c_green;
 	break;
 	
 	case SpawnPointState.Reveal:
-		drawColour = c_fuchsia;
 		
 		if (revealProgress != 1)
 		{
@@ -17,33 +14,33 @@ switch (currentState)
 			
 			revealProgress = approach_timefactor(revealProgress, 1, _revealStep);
 			
-			drawAlpha = lerp_timefactor(0.25, 1, revealProgress);
+			drawAlpha = lerp_timefactor(0, 1, revealProgress);
 		}
 		else
 		{
 			currentState = SpawnPointState.Spawn;
-		}
-	break;
-	
-	case SpawnPointState.Spawn:
-		drawColour = c_orange;
-		
-		if (spawnProgress != 1)
-		{
-			var _spawnStep = set_step(3);
-			
-			spawnProgress = approach_timefactor(spawnProgress, 1, _spawnStep);
-		}
-		else
-		{
-			spawnProgress = 0;
-			currentState = SpawnPointState.Occupied;
 			owner = instance_create_layer(x, y, "entities", owner);
 		}
 	break;
 	
+	case SpawnPointState.Spawn:
+		var _state = owner.currentState;
+		
+		if (_state == EntityState.Idle)
+		{
+			currentState = SpawnPointState.Occupied;
+		}
+	break;
+	
 	case SpawnPointState.Occupied:
-		drawColour = c_red;
+		if (revealProgress != 0)
+		{
+			var _revealStep = set_step(0.25);
+			
+			revealProgress = approach_timefactor(revealProgress, 0, _revealStep);
+			
+			drawAlpha = lerp_timefactor(0, 1, revealProgress);
+		}
 		
 		var _owenerExists = instance_exists(owner);
 		
@@ -52,14 +49,6 @@ switch (currentState)
 			owner = noone;
 			currentState = SpawnPointState.Active;
 		}
-		
-		if (revealProgress != 0)
-		{
-			var _revealStep = set_step(3);
-			
-			revealProgress = approach_timefactor(revealProgress, 0, _revealStep);
-			
-			drawAlpha = lerp_timefactor(0.25, 1, revealProgress);
-		}
+
 	break;
 }

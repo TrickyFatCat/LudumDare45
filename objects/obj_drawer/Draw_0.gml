@@ -2,11 +2,11 @@
 
 if (instance_exists(obj_base))
 {
+	DrawFloorEffects;
+	
 	DrawFloorObjects;
 	
 	DrawUnsortable(DrawPosition.OnFloor);
-	
-	DrawFloorEffects;
 	
 	DrawUnsortable(DrawPosition.OnFloorEffects);
 

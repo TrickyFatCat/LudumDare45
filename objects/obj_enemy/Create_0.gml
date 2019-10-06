@@ -46,7 +46,7 @@ enum EntityState
 	Death
 }
 
-currentState = EntityState.Idle;
+currentState = EntityState.Spawn;
 
 idleTime = set_time(0.4);
 idleTimer = 0;
@@ -59,3 +59,6 @@ enum TargetToSearch
 }
 
 currentTarget = TargetToSearch.Self;
+
+drawAlpha = 0;
+SetDissolveSettings(spr_dissolve_00,image_index, c_orange, c_yellow, 0.1)

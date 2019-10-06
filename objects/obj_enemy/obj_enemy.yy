@@ -203,7 +203,7 @@
             "mvc": "1.0",
             "objectId": "e65bc741-4250-4699-9351-a45d11e39675",
             "propertyId": "efabaa81-1598-4f39-85c1-b007e0a0ab2f",
-            "value": "spr_enemy_test_run"
+            "value": "spr_enemy_zombie00_run"
         },
         {
             "id": "922c6b42-7f6b-431d-adfe-23065bc5d508",
@@ -211,7 +211,7 @@
             "mvc": "1.0",
             "objectId": "e65bc741-4250-4699-9351-a45d11e39675",
             "propertyId": "2aa18b62-ad05-4c51-abad-332959da88e1",
-            "value": "spr_enemy_test_idle"
+            "value": "spr_enemy_zombie00_idle"
         }
     ],
     "parentObjectId": "e65bc741-4250-4699-9351-a45d11e39675",
@@ -229,6 +229,20 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": [
+        {
+            "id": "462cde36-5995-43d3-8295-4645af9d0e5b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "vfx_splatter_blood",
+            "varName": "splatterObject",
+            "varType": 5
+        },
         {
             "id": "93bc7158-edfb-441d-925d-079a80d109f1",
             "modelName": "GMObjectProperty",

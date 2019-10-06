@@ -14,14 +14,10 @@ timerIsTicking = false;
 velocityCurrent = 2;
 groundFriction = 0.075;
 
-enum BarrelState
-{
-	Spawn,
-	Idle,
-	Active
-}
-
-currentState = BarrelState.Active;
+currentState = EntityState.Spawn;
 
 idleTime = set_time(0.4);
 idleTimer = 0;
+
+drawAlpha = 0;
+SetDissolveSettings(spr_dissolve_00,image_index, c_orange, c_yellow, 0.1)

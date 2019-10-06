@@ -53,7 +53,7 @@
             "mvc": "1.0",
             "objectId": "e65bc741-4250-4699-9351-a45d11e39675",
             "propertyId": "2aa18b62-ad05-4c51-abad-332959da88e1",
-            "value": "spr_imp_idle"
+            "value": "spr_imp_big_idle"
         },
         {
             "id": "5a3d0ab3-cfd2-4f16-9f35-253f78041955",
@@ -61,7 +61,7 @@
             "mvc": "1.0",
             "objectId": "e65bc741-4250-4699-9351-a45d11e39675",
             "propertyId": "efabaa81-1598-4f39-85c1-b007e0a0ab2f",
-            "value": "spr_imp_run"
+            "value": "spr_imp_big_run"
         },
         {
             "id": "b981bd77-25e5-4661-8ed2-688e607de1ff",
@@ -102,6 +102,14 @@
             "objectId": "e65bc741-4250-4699-9351-a45d11e39675",
             "propertyId": "f690b7f0-cfc7-4571-b0ac-8e418bacc9a1",
             "value": "10"
+        },
+        {
+            "id": "c60a4629-0ae2-4c04-9e7c-21f51ae8ecdb",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "39a84839-a339-4e0e-b1f7-372d6d294a74",
+            "propertyId": "462cde36-5995-43d3-8295-4645af9d0e5b",
+            "value": "vfx_splatter_bloodgreen"
         }
     ],
     "parentObjectId": "39a84839-a339-4e0e-b1f7-372d6d294a74",
@@ -120,6 +128,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "c280b74a-9140-4314-a277-559ebe0157d2",
+    "spriteId": "4ac9d9ea-dbd0-41a8-aeab-33b3d77cbf4c",
     "visible": true
 }

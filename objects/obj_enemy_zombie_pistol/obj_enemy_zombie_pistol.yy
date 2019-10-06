@@ -53,7 +53,7 @@
             "mvc": "1.0",
             "objectId": "e65bc741-4250-4699-9351-a45d11e39675",
             "propertyId": "2aa18b62-ad05-4c51-abad-332959da88e1",
-            "value": "spr_imp_idle"
+            "value": "spr_enemy_zombie01_idle"
         },
         {
             "id": "bb7af464-65a1-4bd7-bb00-9ecdc7308eb5",
@@ -61,7 +61,7 @@
             "mvc": "1.0",
             "objectId": "e65bc741-4250-4699-9351-a45d11e39675",
             "propertyId": "efabaa81-1598-4f39-85c1-b007e0a0ab2f",
-            "value": "spr_imp_run"
+            "value": "spr_enemy_zombie01_run"
         },
         {
             "id": "68e92604-09ea-413b-9fd4-130f81071a80",
@@ -120,6 +120,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "c280b74a-9140-4314-a277-559ebe0157d2",
+    "spriteId": "fea9c624-359f-4808-8e13-e4c6fd422029",
     "visible": true
 }

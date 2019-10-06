@@ -3,10 +3,11 @@
 // Inherit the parent event
 event_inherited();
 
-velocityMax = 5.0;
-acceleration = 0.1;
+velocityMax = 4.0;
+acceleration = 0.2;
 
 explosionRadius = 32;
+damage = 5;
 
 activeWeapon = instance_create_layer(x, y, layer, obj_weapon_enemy);
 weaponID = EnemyWeapon.ImpFireball;
