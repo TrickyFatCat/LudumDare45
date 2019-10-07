@@ -14,7 +14,6 @@ event_inherited();
 #macro ExecuteStateTrancendence event_user(6)
 #macro ExecuteStateDeath		event_user(7)
 #macro StopMoving				event_user(8)
-#macro ChangeSpriteScale		
 
 // Test Timers
 testTimer = 0;

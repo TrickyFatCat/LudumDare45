@@ -106,3 +106,8 @@ draw_sprite_ext(spr_face, _imageIndex, guiWidth / 2, guiHeight  - 10, 1, 1, 0, i
 
 draw_set_font(fnt_text_normal);
 draw_set_alpha(1);
+
+if (global.CurrentInput == InputMethod.KeyboardMouse)
+{
+	draw_sprite(spr_crosshair, image_index, device_mouse_x_to_gui(0), device_mouse_y_to_gui(0));
+}

@@ -30,14 +30,12 @@ switch (currentState)
 	break;
 	
 	case EntityState.TargetSearch:
-	ChangeSpriteScale
 		ChangeSpriteTo(spriteIdle);
 		ExecuteStateTargetSearch;
 		CheckEntityHP;
 	break;
 	
 	case EntityState.Move:
-	ChangeSpriteScale
 		ChangeSpriteTo(spriteRun);
 		ExecuteStateMove;
 		isShooting = false;
@@ -60,7 +58,6 @@ switch (currentState)
 		ChangeSpriteTo(spriteIdle);
 		ExecuteStateAction;
 		CheckEntityHP;
-		ChangeSpriteScale
 	break;
 	
 	case EntityState.Trancendence:

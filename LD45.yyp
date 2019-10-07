@@ -1743,6 +1743,14 @@
             }
         },
         {
+            "Key": "7f9316ea-9d4d-46e9-8082-755fc3acd928",
+            "Value": {
+                "id": "b40be566-fbc6-48c9-b670-904e1673e048",
+                "resourcePath": "sprites\\spr_crosshair\\spr_crosshair.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7fb946f0-1877-4fa4-8f22-346a357b5125",
             "Value": {
                 "id": "4f41187d-4804-41a2-8df9-43b944a9ab04",

@@ -137,7 +137,7 @@ ds_map_add(EnemyPistolData, "bulletObject",					obj_projectileE_pistol);
 ds_map_add(EnemyPistolData, "bulletNumber",					1);
 ds_map_add(EnemyPistolData, "bulletSpawnPointOffset",		16);
 //-----------------------------------------------------------------------------
-ds_map_add(EnemyPistolData, "damage",						2);
+ds_map_add(EnemyPistolData, "damage",						3);
 ds_map_add(EnemyPistolData, "heal",							0);
 //-----------------------------------------------------------------------------
 ds_map_add(EnemyPistolData, "rateOfFireAccelerated",		false);
@@ -191,7 +191,7 @@ ds_map_add(EnemyShotgunData, "bulletObject",				obj_projectileE_shotgun);
 ds_map_add(EnemyShotgunData, "bulletNumber",				8);
 ds_map_add(EnemyShotgunData, "bulletSpawnPointOffset",		18);
 //-----------------------------------------------------------------------------
-ds_map_add(EnemyShotgunData, "damage",						4);
+ds_map_add(EnemyShotgunData, "damage",						3);
 ds_map_add(EnemyShotgunData, "heal",						0);
 //-----------------------------------------------------------------------------
 ds_map_add(EnemyShotgunData, "rateOfFireAccelerated",		false);

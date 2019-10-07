@@ -205,10 +205,10 @@ ds_map_add(DShotgunData, "isAuto",						false);
 ds_map_add(DShotgunData, "currentShootMode",			ShootMode.Normal);
 //-----------------------------------------------------------------------------
 ds_map_add(DShotgunData, "bulletObject",				obj_projectileP_doubleshotgun);
-ds_map_add(DShotgunData, "bulletNumber",				10);
+ds_map_add(DShotgunData, "bulletNumber",				12);
 ds_map_add(DShotgunData, "bulletSpawnPointOffset",		14);
 //-----------------------------------------------------------------------------
-ds_map_add(DShotgunData, "damage",						3);
+ds_map_add(DShotgunData, "damage",						4);
 ds_map_add(DShotgunData, "heal",						0);
 //-----------------------------------------------------------------------------
 ds_map_add(DShotgunData, "rateOfFireAccelerated",		false);
