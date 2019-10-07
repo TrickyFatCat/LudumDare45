@@ -297,7 +297,7 @@ ds_map_add(EnemyRocketData, "currentShootMode",				ShootMode.Cast);
 //-----------------------------------------------------------------------------
 ds_map_add(EnemyRocketData, "bulletObject",					obj_projectileE_rocketlauncher);
 ds_map_add(EnemyRocketData, "bulletNumber",					1);
-ds_map_add(EnemyRocketData, "bulletSpawnPointOffset",		24);
+ds_map_add(EnemyRocketData, "bulletSpawnPointOffset",		28);
 //-----------------------------------------------------------------------------
 ds_map_add(EnemyRocketData, "damage",						20);
 ds_map_add(EnemyRocketData, "heal",							0);
@@ -312,7 +312,7 @@ ds_map_add(EnemyRocketData, "burstPauseTime",				0);
 ds_map_add(EnemyRocketData, "burstShotsNumber",				0);
 //-----------------------------------------------------------------------------
 ds_map_add(EnemyRocketData, "castExecuteCount",				0);
-ds_map_add(EnemyRocketData, "castTime",						2);
+ds_map_add(EnemyRocketData, "castTime",						1.5);
 //-----------------------------------------------------------------------------
 ds_map_add(EnemyRocketData, "spreadIsDynamic",				false);
 ds_map_add(EnemyRocketData, "spreadIsUniform",				false);
@@ -330,7 +330,7 @@ ds_map_add(EnemyRocketData, "recoilFactor",					0.3);
 ds_map_add(EnemyRocketData, "hitscanScaleY",				0);
 ds_map_add(EnemyRocketData, "projectileVelocityCurrent",	0);
 ds_map_add(EnemyRocketData, "projectileVelocityMax",		6);
-ds_map_add(EnemyRocketData, "projectileAcceleration",		0.1);
+ds_map_add(EnemyRocketData, "projectileAcceleration",		0.075);
 ds_map_add(EnemyRocketData, "projectileFriction",			0);
 ds_map_add(EnemyRocketData, "projectileBounceEnable",		false);
 ds_map_add(EnemyRocketData, "projectileBounceFriction",		0);

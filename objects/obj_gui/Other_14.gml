@@ -14,6 +14,11 @@ if (menuIsActive)
 		{
 			menuActiveItem = 0;
 		}
+		
+		if (playUiSound)
+		{
+			PlaySound(sfx_ui_changeposiston);
+		}
 	}
 	
 	if (obj_gameManager.keyMenuDown)
@@ -24,10 +29,20 @@ if (menuIsActive)
 		{
 			menuActiveItem = menuItemsCount - 1;
 		}
+		
+		if (playUiSound)
+		{
+			PlaySound(sfx_ui_changeposiston);
+		}
 	}
 	
 	if (obj_gameManager.keyMenuAccept)
 	{
 		menuCurrentAction = menuActiveItem;
+		
+		if (playUiSound)
+		{
+			PlaySound(sfx_ui_action);
+		}
 	}
 }

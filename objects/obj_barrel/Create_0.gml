@@ -4,7 +4,7 @@
 event_inherited();
 
 weaponData = noone;
-explosionRadius = 96;
+explosionRadius = 64;
 damage = 30;
 
 explosionDelayTime = set_time(0.4);

@@ -15,16 +15,6 @@
             "m_owner": "d8606aff-330a-4be0-a0b3-7cdaf5a0e792"
         },
         {
-            "id": "dcee71f8-0d38-495c-ab84-ce5c18564cc1",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 1,
-            "eventtype": 3,
-            "m_owner": "d8606aff-330a-4be0-a0b3-7cdaf5a0e792"
-        },
-        {
             "id": "6bd28d34-9715-44eb-b8e0-5856e279d634",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -77,7 +67,7 @@
             "mvc": "1.0",
             "objectId": "39a84839-a339-4e0e-b1f7-372d6d294a74",
             "propertyId": "b8c4fdfc-fcd2-4ac7-9aee-476251e131da",
-            "value": "256"
+            "value": "128"
         },
         {
             "id": "6482d787-e3ab-4c8d-b770-5c927ce0be4c",
@@ -85,7 +75,7 @@
             "mvc": "1.0",
             "objectId": "39a84839-a339-4e0e-b1f7-372d6d294a74",
             "propertyId": "f012d24f-8e1b-4972-89c6-42a6dc49fb6b",
-            "value": "128"
+            "value": "64"
         },
         {
             "id": "7fd20b61-c336-45c6-95cd-f452dbf5ce0a",
@@ -110,6 +100,14 @@
             "objectId": "39a84839-a339-4e0e-b1f7-372d6d294a74",
             "propertyId": "462cde36-5995-43d3-8295-4645af9d0e5b",
             "value": "vfx_splatter_bloodgreen"
+        },
+        {
+            "id": "549aaa1b-7a29-4475-b8fc-fe6fee1beb61",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "39a84839-a339-4e0e-b1f7-372d6d294a74",
+            "propertyId": "b0b58896-947a-4ed2-8099-d99435cbf3a6",
+            "value": "8"
         }
     ],
     "parentObjectId": "39a84839-a339-4e0e-b1f7-372d6d294a74",

@@ -41,3 +41,4 @@ menuCurrentAction = noone;
 menuIsActive = true;
 menuBackGroundAlpha = 0;
 logoAlpha = 1;
+playUiSound = true;

@@ -22,7 +22,15 @@ if (activeWeapon.shotCount == 1)
 }
 else
 {
-	isShooting = true;
+	aimTimer += global.TimeFactor;
+	
+	var _shoot = check_timer(aimTimer, aimTime)
+	
+	if (_shoot)
+	{
+		isShooting = true;
+		aimTimer = 0;
+	}
 }
 
 if (activeWeapon.currentCastState == CastState.Process)

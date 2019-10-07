@@ -34,7 +34,7 @@ if global.DifficultyLevel == 3 && enemyCountMax != 18
 if global.DifficultyLevel == 4 && enemyCountMax != 24
 {
 	enemyCountMax = 24;
-	spawnPauseTime = set_time(1.5);
+	spawnPauseTime = set_time(1);
 }
 
 if global.DifficultyLevel == 5 && enemyCountMax != 32
@@ -44,7 +44,7 @@ if global.DifficultyLevel == 5 && enemyCountMax != 32
 if global.DifficultyLevel == 6 && enemyCountMax != 35
 {
 	enemyCountMax = 35;
-	spawnPauseTime = set_time(1.25);
+	spawnPauseTime = set_time(0.75);
 }
 if global.DifficultyLevel == 7 && enemyCountMax != 40
 {

@@ -13,10 +13,10 @@ switch global.CurrentInput
 	break;
 	
 	case InputMethod.KeyboardMouse:
-		keyMenuUp = keyboard_check_pressed(ord("W"));
-		keyMenuDown = keyboard_check_pressed(ord("S"));
-		keyMenuLeft = keyboard_check_pressed(ord("A"));
-		keyMenuRight = keyboard_check_pressed(ord("D"));
+		keyMenuUp = keyboard_check_pressed(ord("W")) || keyboard_check_pressed(vk_up);
+		keyMenuDown = keyboard_check_pressed(ord("S")) || keyboard_check_pressed(vk_down);
+		keyMenuLeft = keyboard_check_pressed(ord("A")) || keyboard_check_pressed(vk_left);
+		keyMenuRight = keyboard_check_pressed(ord("D")) || keyboard_check_pressed(vk_right);
 		keyMenuAccept = keyboard_check_pressed(vk_enter);
 		keyMenuBack = gamepad_button_pressed(vk_backspace);
 		keyPause = keyboard_check_pressed(vk_escape);

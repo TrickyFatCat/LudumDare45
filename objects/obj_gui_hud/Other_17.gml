@@ -11,9 +11,9 @@ var _startTime = obj_battleStateHandler.battleStartTime;
 if (global.BattleState == BattleState.Start)
 {
 	var _timeLeft = round((_startTime - _startTimer) / 60);
+	
 			
-	if _timeLeft > 0 
-			
+	if (_timeLeft > 0)
 	{
 		draw_tilt_text(fnt_text_heading1, guiWidth / 2, 0, guiHeight * 0.25, 2, c_maroon, c_red, "THE BATTLE STARTS IN");
 		draw_tilt_text(fnt_text_heading1, guiWidth / 2, 0, guiHeight * 0.45, 2, c_maroon, c_red, string(_timeLeft));
@@ -31,11 +31,10 @@ if (global.BattleState == BattleState.Start)
 if (showStartBattleText) 
 {
 	startBattleTextTimer += global.TimeFactor;
-			
-	var _textTime = set_time(1.5);
-			
+
+	var _textTime = set_time(2);
 	var _timerIsOver = check_timer(startBattleTextTimer, _textTime);
-			
+	
 	if (!_timerIsOver) 
 	{
 		draw_tilt_text(fnt_text_heading1, guiWidth / 2, 0, guiHeight / 2, 2, c_maroon, c_red, "HONK-HONK, MOTHERDUCKERS!");
@@ -57,9 +56,9 @@ draw_text_outline(guiWidth * 0.65, 30, c_black, c_white, string(global.PlayTime 
 // Draw kills
 draw_set_font(fnt_text_small);
 set_align(fa_right, fa_center);
-draw_text_outline(guiWidth * 0.38, 10, c_black, c_white, "KILLS");
+draw_text_outline(guiWidth * 0.38, 10, c_black, c_white, "SCORE");
 set_align(fa_center, fa_center);
-draw_text_outline(guiWidth * 0.338, 30, c_black, c_white, string(global.Kills));
+draw_text_outline(guiWidth * 0.338, 30, c_black, c_white, string(global.Score));
 
 // Draw ammo
 draw_set_font(fnt_text_small);
@@ -75,7 +74,7 @@ set_align(fa_right, fa_center);
 draw_text_outline(guiWidth * 0.38, guiHeight - 10, c_black, c_white, "HEALTH");
 draw_set_font(fnt_text_normal);
 set_align(fa_center, fa_center);
-draw_text_outline(guiWidth * 0.338, guiHeight - 30, c_black, c_white, global.Player.healthPointsCurrent);
+draw_text_outline(guiWidth * 0.338, guiHeight - 30, c_black, c_white, round (global.Player.healthPointsCurrent));
 
 
 // Draw face

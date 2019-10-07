@@ -35,18 +35,20 @@ switch (currentState)
 	case SpawnPointState.Occupied:
 		if (revealProgress != 0)
 		{
-			var _revealStep = set_step(0.25);
+			var _revealStep = set_step(0.15);
 			
 			revealProgress = approach_timefactor(revealProgress, 0, _revealStep);
 			
 			drawAlpha = lerp_timefactor(0, 1, revealProgress);
 		}
 		
-		var _owenerExists = instance_exists(owner);
+		occupiedTimer += global.TimeFactor;
 		
-		if (!_owenerExists)
+		var _timerIsOver = check_timer(occupiedTimer, occupiedTime);
+		
+		if (_timerIsOver)
 		{
-			owner = noone;
+			occupiedTimer = 0;
 			currentState = SpawnPointState.Active;
 		}
 

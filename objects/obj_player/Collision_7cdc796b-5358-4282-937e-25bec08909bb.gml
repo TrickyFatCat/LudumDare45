@@ -9,6 +9,6 @@ EnableFlash(_flashColour, _flashPower);
 
 healthPointsCurrent = min(healthPointsCurrent + 20, 100);
 
-PlaySound(sfx_pickup);
+audio_play_sound(sfx_pickup, 1, false);
 
 instance_destroy(other);

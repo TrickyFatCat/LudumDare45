@@ -6,7 +6,7 @@ event_inherited();
 var _waitTime = set_time(1);
 
 
-if (activeWeapon.shotCount == 1)
+if (activeWeapon.shotCount == 2)
 {
 	isShooting = false;
 	

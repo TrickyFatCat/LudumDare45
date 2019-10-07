@@ -10,7 +10,7 @@ var _speed = set_step(0.25);
 switch hudCurrentState
 {
 	case HUDState.Active:
-		
+		playUiSound = false;
 		
 		if (obj_gameManager.keyPause)
 		{
@@ -37,6 +37,7 @@ switch hudCurrentState
 	break;
 	
 	case HUDState.Pause:
+		playUiSound = true;
 		CheckButtonActions;
 	
 		if (obj_gameManager.keyPause)

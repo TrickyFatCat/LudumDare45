@@ -8,6 +8,8 @@ if (global.GameState == GameState.Active)
 {
 	ExecuteDissolveIn(_spawnTime);
 	
+	PlaySound(sfx_teleportation);
+	
 	with (activeWeapon)
 	{
 		ExecuteDissolveIn(_spawnTime);

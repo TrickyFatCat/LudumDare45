@@ -9,3 +9,5 @@ if (!isInvulnerable)
 }
 
 instance_destroy(other);
+
+global.Score += scoreAdd;

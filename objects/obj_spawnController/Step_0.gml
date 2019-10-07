@@ -1,5 +1,6 @@
 var _enemyCountCurrent = instance_number(obj_enemy);
 var _listSize = ds_list_size(spawnList);
+var _enemiesAlive = instance_number(obj_enemy);
 
 
 if (global.BattleState == BattleState.Active && _enemyCountCurrent < enemyCountMax)
@@ -8,7 +9,7 @@ if (global.BattleState == BattleState.Active && _enemyCountCurrent < enemyCountM
 	
 	var _pauseIsOver = check_timer(spawnPauseTimer, spawnPauseTime);
 	
-	if (_pauseIsOver)
+	if (_pauseIsOver) && _enemiesAlive < enemyCountMax
 	{
 		spawnPauseTimer = 0;
 		

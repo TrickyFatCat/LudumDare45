@@ -3,7 +3,7 @@
 // Inherit the parent event
 event_inherited();
 
-velocityMax = 4.0;
+velocityMax = 3;
 acceleration = 0.2;
 
 explosionRadius = 48;

@@ -12,15 +12,15 @@ enum SpawnPointState
 	Occupied
 }
 
-currentState = choose(SpawnPointState.Active, SpawnPointState.Inactive);
+currentState = SpawnPointState.Active;
 
 drawAlpha = 0;
 
 revealProgress = 0;
 spawnProgress = 0;
 
-testTime = set_time(5);
-testTimer = 0;
+occupiedTime = set_time(5);
+occupiedTimer = 0;
 
 owner = noone;
 enemyToSpawn = noone;

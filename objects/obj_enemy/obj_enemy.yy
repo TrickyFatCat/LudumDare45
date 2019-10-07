@@ -203,6 +203,16 @@
             "enumb": 0,
             "eventtype": 4,
             "m_owner": "39a84839-a339-4e0e-b1f7-372d6d294a74"
+        },
+        {
+            "id": "04c39be5-95f1-4ded-b391-5af9db2096f8",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 3,
+            "m_owner": "39a84839-a339-4e0e-b1f7-372d6d294a74"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -307,6 +317,20 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "changePositionRadius",
+            "varType": 0
+        },
+        {
+            "id": "b0b58896-947a-4ed2-8099-d99435cbf3a6",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "scoreAdd",
             "varType": 0
         }
     ],
