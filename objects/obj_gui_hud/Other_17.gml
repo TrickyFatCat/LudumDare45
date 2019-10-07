@@ -37,7 +37,7 @@ if (showStartBattleText)
 	
 	if (!_timerIsOver) 
 	{
-		draw_tilt_text(fnt_text_heading1, guiWidth / 2, 0, guiHeight / 2, 2, c_maroon, c_red, "HONK-HONK, MOTHERDUCKERS!");
+		draw_tilt_text(fnt_text_heading1, guiWidth / 2, 0, guiHeight / 2, 2, c_maroon, c_red, "HONK, HONK, MOTHERDUCKERS!");
 	}
 	else 
 	{

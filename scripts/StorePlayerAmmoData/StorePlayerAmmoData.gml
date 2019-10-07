@@ -18,8 +18,8 @@ ds_map_add(BulletAmmoData, "ammoCurrent",		100);
 ds_map_add(BulletAmmoData, "ammoCurrentMax",	100);
 
 ammoData[PlayerAmmo.Shell] = ds_map_create();
-ds_map_add(ShellAmmoData, "ammoCurrent",		80);
-ds_map_add(ShellAmmoData, "ammoCurrentMax",		80);
+ds_map_add(ShellAmmoData, "ammoCurrent",		50);
+ds_map_add(ShellAmmoData, "ammoCurrentMax",		50);
 
 ammoData[PlayerAmmo.Rocket] = ds_map_create();
 ds_map_add(RocketAmmoData, "ammoCurrent",		100);
