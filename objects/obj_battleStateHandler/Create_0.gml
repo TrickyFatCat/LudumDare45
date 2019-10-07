@@ -22,3 +22,4 @@ difficultyIncreaseTime[6] = set_time(120);
 difficultyIncreaseTime[7] = set_time(150);
 
 global.DifficultyLevel = 0;
+global.Kills = 0;

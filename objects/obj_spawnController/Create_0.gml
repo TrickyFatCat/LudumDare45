@@ -1,9 +1,9 @@
 /// Spawn pause timer
-spawnPauseTime = set_time(5);
+spawnPauseTime = set_time(3);
 spawnPauseTimer = 0;
 
 /// Enemies count limits
-enemyCountMax = 5;
+enemyCountMax = 10;
 
 /// Spawn lists
 spawnList = ds_list_create();
@@ -32,8 +32,6 @@ enemyData[4, 0] = obj_enemy_zombie_shotgun;
 enemyData[4, 1] = 150;
 enemyData[5, 0] = obj_enemy_zombie_rocketlauncher;
 enemyData[5, 1] = 150;
-enemyData[6, 0] = obj_enemy_imp_great;
-enemyData[6, 1] = 4;
 
 
 enemies[global.DifficultyLevel] = ds_map_create();

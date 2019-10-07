@@ -44,6 +44,8 @@ switch (currentState)
 	break;
 }
 
+//isInvulnerable = true;
+
 CheckCollision(obj_obstacle);
 CheckCollision(obj_well);
 

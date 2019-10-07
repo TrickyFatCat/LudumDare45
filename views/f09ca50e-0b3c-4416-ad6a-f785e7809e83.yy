@@ -36,7 +36,8 @@
         "40c60726-6299-470e-90f5-8a3b453c3524",
         "d4ae2f75-2aed-4f00-9b4f-9997e2870061",
         "bdd27b90-1c01-40f4-bc5e-d908e9f32865",
-        "c978f97d-b2ff-453a-9b0d-e419163e4507"
+        "c978f97d-b2ff-453a-9b0d-e419163e4507",
+        "8c4f2089-56b0-4b4c-846a-24c110974205"
     ],
     "filterType": "GMSprite",
     "folderName": "Wall",

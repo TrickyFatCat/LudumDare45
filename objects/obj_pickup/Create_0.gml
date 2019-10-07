@@ -13,7 +13,8 @@ enum PickUpState
 {
 	Drop,
 	Idle,
-	Pull
+	Pull,
+	Destroy
 }
 
 currentState = PickUpState.Idle;
@@ -24,3 +25,7 @@ dropSpeed = 0.01;
 //Pulling parameters
 isPullable = true;
 pullVelocityCurrent = 0;
+
+//Life span time
+lifespanTime = set_time(7);
+lifespanTimer = 0;

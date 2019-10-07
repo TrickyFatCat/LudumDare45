@@ -127,3 +127,4 @@ offsetZ = 0;
 
 // Dissolve shader parameters
 SetDissolveSettings(spr_dissolve_00, image_index, c_green, c_aqua, 0.01);
+lasersightAlpha = 1;

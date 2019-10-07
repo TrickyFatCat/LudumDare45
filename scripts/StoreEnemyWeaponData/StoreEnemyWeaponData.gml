@@ -137,13 +137,13 @@ ds_map_add(EnemyPistolData, "bulletObject",					obj_projectileE_pistol);
 ds_map_add(EnemyPistolData, "bulletNumber",					1);
 ds_map_add(EnemyPistolData, "bulletSpawnPointOffset",		16);
 //-----------------------------------------------------------------------------
-ds_map_add(EnemyPistolData, "damage",						5);
+ds_map_add(EnemyPistolData, "damage",						2);
 ds_map_add(EnemyPistolData, "heal",							0);
 //-----------------------------------------------------------------------------
 ds_map_add(EnemyPistolData, "rateOfFireAccelerated",		false);
 ds_map_add(EnemyPistolData, "rateOfFireIncrStep",			0);
 ds_map_add(EnemyPistolData, "rateOfFireDecrStep",			0);
-ds_map_add(EnemyPistolData, "rateOfFireMin",				2);
+ds_map_add(EnemyPistolData, "rateOfFireMin",				3);
 ds_map_add(EnemyPistolData, "rateOfFireMax",				0);
 //-----------------------------------------------------------------------------
 ds_map_add(EnemyPistolData, "burstPauseTime",				0);
@@ -156,7 +156,7 @@ ds_map_add(EnemyPistolData, "spreadIsDynamic",				false);
 ds_map_add(EnemyPistolData, "spreadIsUniform",				false);
 ds_map_add(EnemyPistolData, "spreadAngleIncrFactor",		0);
 ds_map_add(EnemyPistolData, "spreadAngleDecrFactor",		0);
-ds_map_add(EnemyPistolData, "spreadAngleMin",				5);
+ds_map_add(EnemyPistolData, "spreadAngleMin",				45);
 ds_map_add(EnemyPistolData, "spreadAngleMax",				0);
 //-----------------------------------------------------------------------------
 ds_map_add(EnemyPistolData, "ammoID",						-1);
@@ -166,10 +166,10 @@ ds_map_add(EnemyPistolData, "recoilPower",					0);
 ds_map_add(EnemyPistolData, "recoilFactor",					0);
 //-----------------------------------------------------------------------------
 ds_map_add(EnemyPistolData, "hitscanScaleY",				0);
-ds_map_add(EnemyPistolData, "projectileVelocityCurrent",	2.5);
+ds_map_add(EnemyPistolData, "projectileVelocityCurrent",	7);
 ds_map_add(EnemyPistolData, "projectileVelocityMax",		0);
 ds_map_add(EnemyPistolData, "projectileAcceleration",		0);
-ds_map_add(EnemyPistolData, "projectileFriction",			0);
+ds_map_add(EnemyPistolData, "projectileFriction",			0.1);
 ds_map_add(EnemyPistolData, "projectileBounceEnable",		false);
 ds_map_add(EnemyPistolData, "projectileBounceFriction",		0);
 //-----------------------------------------------------------------------------
@@ -191,13 +191,13 @@ ds_map_add(EnemyShotgunData, "bulletObject",				obj_projectileE_pistol);
 ds_map_add(EnemyShotgunData, "bulletNumber",				8);
 ds_map_add(EnemyShotgunData, "bulletSpawnPointOffset",		0);
 //-----------------------------------------------------------------------------
-ds_map_add(EnemyShotgunData, "damage",						5);
+ds_map_add(EnemyShotgunData, "damage",						32);
 ds_map_add(EnemyShotgunData, "heal",						0);
 //-----------------------------------------------------------------------------
 ds_map_add(EnemyShotgunData, "rateOfFireAccelerated",		false);
 ds_map_add(EnemyShotgunData, "rateOfFireIncrStep",			0);
 ds_map_add(EnemyShotgunData, "rateOfFireDecrStep",			0);
-ds_map_add(EnemyShotgunData, "rateOfFireMin",				2);
+ds_map_add(EnemyShotgunData, "rateOfFireMin",				1);
 ds_map_add(EnemyShotgunData, "rateOfFireMax",				0);
 //-----------------------------------------------------------------------------
 ds_map_add(EnemyShotgunData, "burstPauseTime",				0);
@@ -210,17 +210,17 @@ ds_map_add(EnemyShotgunData, "spreadIsDynamic",				false);
 ds_map_add(EnemyShotgunData, "spreadIsUniform",				false);
 ds_map_add(EnemyShotgunData, "spreadAngleIncrFactor",		0);
 ds_map_add(EnemyShotgunData, "spreadAngleDecrFactor",		0);
-ds_map_add(EnemyShotgunData, "spreadAngleMin",				25);
+ds_map_add(EnemyShotgunData, "spreadAngleMin",				35);
 ds_map_add(EnemyShotgunData, "spreadAngleMax",				0);
 //-----------------------------------------------------------------------------
 ds_map_add(EnemyShotgunData, "ammoID",						-1);
 ds_map_add(EnemyShotgunData, "shootAmmoCost",				0);
 //-----------------------------------------------------------------------------
-ds_map_add(EnemyShotgunData, "recoilPower",					0);
-ds_map_add(EnemyShotgunData, "recoilFactor",				0);
+ds_map_add(EnemyShotgunData, "recoilPower",					20);
+ds_map_add(EnemyShotgunData, "recoilFactor",				0.3);
 //-----------------------------------------------------------------------------
 ds_map_add(EnemyShotgunData, "hitscanScaleY",				0);
-ds_map_add(EnemyShotgunData, "projectileVelocityCurrent",	5);
+ds_map_add(EnemyShotgunData, "projectileVelocityCurrent",	7);
 ds_map_add(EnemyShotgunData, "projectileVelocityMax",		0);
 ds_map_add(EnemyShotgunData, "projectileAcceleration",		0);
 ds_map_add(EnemyShotgunData, "projectileFriction",			0.1);
@@ -291,7 +291,7 @@ ds_map_add(EnemyRifleData, "shotShakeFactor",				0);
 weaponData[EnemyWeapon.Rocketlauncher] = ds_map_create();
 ds_map_add(EnemyRocketData, "weaponSprite",					spr_weapon_rocketlauncher);
 ds_map_add(EnemyRocketData, "offsetZ",						4);
-ds_map_add(EnemyRocketData, "laserSightEnabled",			true);
+ds_map_add(EnemyRocketData, "laserSightEnabled",			false);
 ds_map_add(EnemyRocketData, "isAuto",						true);
 ds_map_add(EnemyRocketData, "currentShootMode",				ShootMode.Cast);
 //-----------------------------------------------------------------------------
@@ -311,7 +311,7 @@ ds_map_add(EnemyRocketData, "rateOfFireMax",				0);
 ds_map_add(EnemyRocketData, "burstPauseTime",				0);
 ds_map_add(EnemyRocketData, "burstShotsNumber",				0);
 //-----------------------------------------------------------------------------
-ds_map_add(EnemyRocketData, "castExecuteCount",				1);
+ds_map_add(EnemyRocketData, "castExecuteCount",				0);
 ds_map_add(EnemyRocketData, "castTime",						2);
 //-----------------------------------------------------------------------------
 ds_map_add(EnemyRocketData, "spreadIsDynamic",				false);

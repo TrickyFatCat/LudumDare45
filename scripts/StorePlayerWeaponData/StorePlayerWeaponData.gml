@@ -205,16 +205,16 @@ ds_map_add(DShotgunData, "isAuto",						false);
 ds_map_add(DShotgunData, "currentShootMode",			ShootMode.Normal);
 //-----------------------------------------------------------------------------
 ds_map_add(DShotgunData, "bulletObject",				obj_projectileP_doubleshotgun);
-ds_map_add(DShotgunData, "bulletNumber",				24);
+ds_map_add(DShotgunData, "bulletNumber",				10);
 ds_map_add(DShotgunData, "bulletSpawnPointOffset",		14);
 //-----------------------------------------------------------------------------
-ds_map_add(DShotgunData, "damage",						5);
+ds_map_add(DShotgunData, "damage",						3);
 ds_map_add(DShotgunData, "heal",						0);
 //-----------------------------------------------------------------------------
 ds_map_add(DShotgunData, "rateOfFireAccelerated",		false);
 ds_map_add(DShotgunData, "rateOfFireIncrStep",			0);
 ds_map_add(DShotgunData, "rateOfFireDecrStep",			0);
-ds_map_add(DShotgunData, "rateOfFireMin",				1);
+ds_map_add(DShotgunData, "rateOfFireMin",				1.5);
 ds_map_add(DShotgunData, "rateOfFireMax",				0);
 //-----------------------------------------------------------------------------
 ds_map_add(DShotgunData, "burstPauseTime",				0);
@@ -227,11 +227,11 @@ ds_map_add(DShotgunData, "spreadIsDynamic",				false);
 ds_map_add(DShotgunData, "spreadIsUniform",				false);
 ds_map_add(DShotgunData, "spreadAngleIncrFactor",		0);
 ds_map_add(DShotgunData, "spreadAngleDecrFactor",		0);
-ds_map_add(DShotgunData, "spreadAngleMin",				30);
+ds_map_add(DShotgunData, "spreadAngleMin",				20);
 ds_map_add(DShotgunData, "spreadAngleMax",				0);
 //-----------------------------------------------------------------------------
 ds_map_add(DShotgunData, "ammoID",						PlayerAmmo.Shell);
-ds_map_add(DShotgunData, "shootAmmoCost",				2);
+ds_map_add(DShotgunData, "shootAmmoCost",				1);
 //-----------------------------------------------------------------------------
 ds_map_add(DShotgunData, "recoilPower",					20);
 ds_map_add(DShotgunData, "recoilFactor",				0.3);
@@ -240,13 +240,13 @@ ds_map_add(DShotgunData, "hitscanScaleY",				0);
 ds_map_add(DShotgunData, "projectileVelocityCurrent",	9);
 ds_map_add(DShotgunData, "projectileVelocityMax",		0);
 ds_map_add(DShotgunData, "projectileAcceleration",		0);
-ds_map_add(DShotgunData, "projectileFriction",			0.1);
+ds_map_add(DShotgunData, "projectileFriction",			0.12);
 ds_map_add(DShotgunData, "projectileBounceEnable",		true);
 ds_map_add(DShotgunData, "projectileBounceFriction",	2);
 //-----------------------------------------------------------------------------
 ds_map_add(DShotgunData, "isShackingCamera",			true);
 ds_map_add(DShotgunData, "angularShakeEnabled",			true);
-ds_map_add(DShotgunData, "shakeValue",					1.75);
+ds_map_add(DShotgunData, "shakeValue",					1.5);
 ds_map_add(DShotgunData, "shotShakeFactor",				1);
 #endregion
 

@@ -12,6 +12,7 @@ switch (menuCurrentAction)
 		
 		global.PlayTime = 0;
 		global.DifficultyLevel = 0;
+		global.Kills = 0;
 	break;
 	
 	case FinishMenuItem.Fullscreen:

@@ -24,7 +24,7 @@ switch (currentTarget)
 	break;
 	
 	case TargetToSearch.Player:
-		var _targetDirection = point_distance(x, y, playerX, playerY);
+		var _targetDirection = point_distance(playerX, playerY, x, y);
 		_pointX = playerX + lengthdir_x(attackRadiusMin, _targetDirection);
 		_pointY = playerY + lengthdir_y(attackRadiusMin, _targetDirection);
 	break;

@@ -77,7 +77,7 @@
             "mvc": "1.0",
             "objectId": "39a84839-a339-4e0e-b1f7-372d6d294a74",
             "propertyId": "b8c4fdfc-fcd2-4ac7-9aee-476251e131da",
-            "value": "150"
+            "value": "256"
         },
         {
             "id": "6482d787-e3ab-4c8d-b770-5c927ce0be4c",
@@ -85,7 +85,7 @@
             "mvc": "1.0",
             "objectId": "39a84839-a339-4e0e-b1f7-372d6d294a74",
             "propertyId": "f012d24f-8e1b-4972-89c6-42a6dc49fb6b",
-            "value": "75"
+            "value": "128"
         },
         {
             "id": "7fd20b61-c336-45c6-95cd-f452dbf5ce0a",
@@ -101,7 +101,15 @@
             "mvc": "1.0",
             "objectId": "e65bc741-4250-4699-9351-a45d11e39675",
             "propertyId": "f690b7f0-cfc7-4571-b0ac-8e418bacc9a1",
-            "value": "10"
+            "value": "18"
+        },
+        {
+            "id": "755bab41-7046-49d9-91f0-55edfbbaa238",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "39a84839-a339-4e0e-b1f7-372d6d294a74",
+            "propertyId": "462cde36-5995-43d3-8295-4645af9d0e5b",
+            "value": "vfx_splatter_bloodgreen"
         }
     ],
     "parentObjectId": "39a84839-a339-4e0e-b1f7-372d6d294a74",

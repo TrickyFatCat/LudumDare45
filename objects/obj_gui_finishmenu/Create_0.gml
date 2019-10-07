@@ -25,4 +25,4 @@ menuItemsCount = array_length_1d(menuItem);
 
 menuActiveItem = 2;
 fullScreenItemIndex = FinishMenuItem.Fullscreen;
-logoAlpha = 0;
+logoAlpha = 1;
