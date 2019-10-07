@@ -99,7 +99,7 @@
             "mvc": "1.0",
             "objectId": "39a84839-a339-4e0e-b1f7-372d6d294a74",
             "propertyId": "462cde36-5995-43d3-8295-4645af9d0e5b",
-            "value": "vfx_splatter_bloodgreen"
+            "value": "vfx_splatter_white"
         },
         {
             "id": "549aaa1b-7a29-4475-b8fc-fe6fee1beb61",

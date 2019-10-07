@@ -24,6 +24,12 @@ else
 {
 	aimTimer += global.TimeFactor;
 	
+	with (activeWeapon)
+	{
+		laserSightEnabled = true;
+		lasersightAlpha = 1
+	}
+	
 	var _shoot = check_timer(aimTimer, aimTime)
 	
 	if (_shoot)
@@ -35,11 +41,10 @@ else
 
 if (activeWeapon.currentCastState == CastState.Process)
 {
-	EnableFlash(c_purple, 1);
 	with (activeWeapon)
 	{
-		laserSightEnabled = true;
-		lasersightAlpha = castProgress;
+		lasersightAlpha = lerp_timefactor(lasersightAlpha, 1, castProgress);
+		
 	}
 }
 else
