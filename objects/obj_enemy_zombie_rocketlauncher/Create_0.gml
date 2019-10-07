@@ -13,3 +13,4 @@ SetWeapon(activeWeapon, weaponID);
 isShooting = false;
 activeWeapon.directionCurrent = point_direction(x, y, playerX, playerY);
 activeWeapon.lasersightAlpha = 0;
+activeWeapon.shotSound = sfx_rocket_shot;

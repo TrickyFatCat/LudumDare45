@@ -4,3 +4,5 @@
 event_inherited();
 
 collisionTargets = SetHitscanTargets(obj_obstacle, obj_player);
+
+shotSound = sfx_shot;

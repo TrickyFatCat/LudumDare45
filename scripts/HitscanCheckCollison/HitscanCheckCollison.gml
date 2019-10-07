@@ -8,7 +8,7 @@ var _direction = argument0;
 var _targetObject = argument1;
 var _isPrecise = argument2;
 
-var _cast = process_raycast(x, y, _direction, _targetObject, _isPrecise, false, 2000);
+var _cast = process_raycast(x, y, _direction, _targetObject, _isPrecise, false, 4000);
 
 if (_cast[cast.instance] != noone)
 {

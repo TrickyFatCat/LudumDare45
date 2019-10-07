@@ -27,6 +27,18 @@ switch (currentState)
 		RotateWeapon;
 		ShootWeapon;
 		PullPickups;
+		moveSoundTimer += global.TimeFactor;
+		
+		var _stepTime = set_time(0.25);
+		
+		var _timeIsOver = check_timer(moveSoundTimer, _stepTime)
+		
+		if (_timeIsOver)
+		{
+			moveSoundTimer = 0;
+			
+			PlaySound(sfx_step);
+		}
 	break;
 	
 	case PlayerState.Jump:
@@ -44,7 +56,7 @@ switch (currentState)
 	break;
 }
 
-//isInvulnerable = true;
+//isInvulnerable = truke;
 
 CheckCollision(obj_obstacle);
 CheckCollision(obj_well);

@@ -8,7 +8,7 @@ var _recoilDeltaY = lengthdir_y(recoilPowerCurrent, directionCurrent);
 if (laserSightEnabled) && (visible)
 {
 	var _scaleX = SortHitscanCollisions(directionCurrent, collisionTargets);
-	draw_sprite_ext(spr_1pix, image_index, bulletSpawnPointX, bulletSpawnPointY, _scaleX, 1, drawAngle, c_red, lasersightAlpha);
+	draw_sprite_ext(spr_1pix, image_index, bulletSpawnPointX, bulletSpawnPointY, _scaleX - 2, 1, drawAngle, c_red, lasersightAlpha);
 }
 
 var _x = x;

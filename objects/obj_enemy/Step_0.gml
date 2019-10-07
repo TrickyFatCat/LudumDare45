@@ -30,22 +30,37 @@ switch (currentState)
 	break;
 	
 	case EntityState.TargetSearch:
+	ChangeSpriteScale
 		ChangeSpriteTo(spriteIdle);
 		ExecuteStateTargetSearch;
 		CheckEntityHP;
 	break;
 	
 	case EntityState.Move:
+	ChangeSpriteScale
 		ChangeSpriteTo(spriteRun);
 		ExecuteStateMove;
 		isShooting = false;
 		CheckEntityHP;
+		moveSoundTimer += global.TimeFactor;
+		
+		var _stepTime = set_time(0.25);
+		
+		var _timeIsOver = check_timer(moveSoundTimer, _stepTime)
+		
+		if (_timeIsOver)
+		{
+			moveSoundTimer = 0;
+			
+			PlaySoundAt(sfx_step, 128, false);
+		}
 	break;
 	
 	case EntityState.Action:
 		ChangeSpriteTo(spriteIdle);
 		ExecuteStateAction;
 		CheckEntityHP;
+		ChangeSpriteScale
 	break;
 	
 	case EntityState.Trancendence:

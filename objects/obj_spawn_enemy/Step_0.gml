@@ -10,7 +10,7 @@ switch (currentState)
 		
 		if (revealProgress != 1)
 		{
-			var _revealStep = set_step(3);
+			var _revealStep = set_step(1);
 			
 			revealProgress = approach_timefactor(revealProgress, 1, _revealStep);
 			

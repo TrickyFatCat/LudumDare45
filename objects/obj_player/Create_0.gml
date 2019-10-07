@@ -60,3 +60,5 @@ SetAmmoParameters(ammoID, ammoData);
 // Dissolve settings
 drawAlpha = 0;
 SetDissolveSettings(spr_dissolve_00, image_index, c_red, c_orange, 0.1);
+
+moveSoundTimer = 0;

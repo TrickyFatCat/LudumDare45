@@ -18,6 +18,13 @@ switch (global.BattleState)
 	break;
 			
 	case BattleState.Active:
+		if (!audio_is_playing(music)) 
+		{
+			audio_sound_gain(music, 0, 0);
+			audio_play_sound(music, 1000, true);
+			audio_sound_gain(music, 0.2, 1000);
+		}
+		
 		global.PlayTime += global.TimeFactor;
 		
 		if (array_length_1d(difficultyIncreaseTime) - 1 >= global.DifficultyLevel)
@@ -33,6 +40,14 @@ switch (global.BattleState)
 	break;
 			
 	case BattleState.End:
+		if (audio_is_playing(music))
+		{
+			audio_stop_sound(music);
+		}
+		else if (!audio_is_playing(bgm_defeat))
+		{
+			audio_play_sound(bgm_defeat, 0, false);
+		}
 		obj_gui.currentState = InterfaceState.TransitionOut;
 		global.BattleState = BattleState.Inactive;
 	break;

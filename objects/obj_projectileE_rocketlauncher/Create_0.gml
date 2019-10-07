@@ -3,4 +3,4 @@
 // Inherit the parent event
 event_inherited();
 
-explosionRadius = 48;
+explosionRadius = 100;

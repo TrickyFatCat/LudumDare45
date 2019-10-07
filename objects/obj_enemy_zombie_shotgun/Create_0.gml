@@ -11,3 +11,4 @@ weaponID = EnemyWeapon.Shotgun;
 SetWeapon(activeWeapon, weaponID);
 isShooting = false;
 activeWeapon.directionCurrent = point_direction(x, y, playerX, playerY);
+activeWeapon.shotSound = sfx_shot_enemy;

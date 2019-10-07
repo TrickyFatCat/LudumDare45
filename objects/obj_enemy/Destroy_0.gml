@@ -22,4 +22,3 @@ else if (_drop = obj_pickup_health)
 {
 	instance_create_layer(x, y, layer, _drop);
 }
-

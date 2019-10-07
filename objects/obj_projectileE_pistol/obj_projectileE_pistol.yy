@@ -1,5 +1,5 @@
 {
-    "id": "9d4a821a-8006-4c2b-bed6-0fa5c0d0b5bc",
+    "id": "20554097-2bd2-4788-afe6-252f114a4722",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "obj_projectileE_pistol",
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "9d7daa89-3aa1-4628-a944-7a104911d39c",
+    "spriteId": "1ddb449a-3080-49af-b52f-f37ce8e596b1",
     "visible": true
 }

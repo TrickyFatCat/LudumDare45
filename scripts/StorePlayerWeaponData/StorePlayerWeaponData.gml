@@ -245,8 +245,8 @@ ds_map_add(DShotgunData, "projectileBounceEnable",		true);
 ds_map_add(DShotgunData, "projectileBounceFriction",	2);
 //-----------------------------------------------------------------------------
 ds_map_add(DShotgunData, "isShackingCamera",			true);
-ds_map_add(DShotgunData, "angularShakeEnabled",			true);
-ds_map_add(DShotgunData, "shakeValue",					1.5);
+ds_map_add(DShotgunData, "angularShakeEnabled",			false);
+ds_map_add(DShotgunData, "shakeValue",					1.25);
 ds_map_add(DShotgunData, "shotShakeFactor",				1);
 #endregion
 
