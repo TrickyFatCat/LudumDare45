@@ -6,7 +6,7 @@ if (surface_exists(_surface))
 {
 	surface_set_target(_surface);
 	
-	draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, direction, c_white, image_alpha);
+	draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, direction, c_gray, image_alpha);
 	
 	surface_reset_target();
 }
