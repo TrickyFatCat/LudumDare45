@@ -7,6 +7,7 @@ switch (currentState)
 {
 	case PlayerState.Spawn:
 		ExecutePlayerSpawn;
+		RotateWeapon;
 	break;
 	
 	case PlayerState.Idle:
@@ -48,11 +49,20 @@ switch (currentState)
 	break;
 	
 	case PlayerState.Transcendence:
+		sprite_index = spriteIdle;
 		ExecutePlayerDeath;
 	break;
 	
 	case PlayerState.Death:
-		global.BattleState = BattleState.End;
+		instance_create_layer(x, y, layer, obj_explostion_playerDeath);
+		activeWeapon.visible = false;
+		visible = false;
+		currentState = PlayerState.Inactive;
+		shadowAlpha = 0;
+		if (audio_is_playing(sfx_deathtimer))
+		{
+			audio_stop_sound(sfx_deathtimer);
+		}
 	break;
 }
 

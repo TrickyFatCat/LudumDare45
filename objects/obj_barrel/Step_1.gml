@@ -16,17 +16,6 @@ switch (currentState)
 	
 		if (dissolvePower == 1)
 		{
-			currentState = EntityState.Idle;
-		}
-	break;
-	
-	case EntityState.Idle:
-		idleTimer += global.TimeFactor;
-
-		var _timeIsOver = check_timer(idleTimer, idleTime);
-
-		if (_timeIsOver)
-		{
 			currentState = EntityState.Action;
 		}
 	break;

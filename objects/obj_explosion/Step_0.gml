@@ -20,9 +20,29 @@ if (dealingDamage)
 				with (_target)
 				{
 					if (!isInvulnerable)
-					{
-						DealDamage(other.damage);
-						directionCurrent = point_direction(x, y, other.x, other.y) - 180;
+					{	
+						switch (object_index)
+						{
+							case obj_player:
+								DealDamage(other.damage);
+								EnableFlash(c_red, 1);
+								ApplyShakeToCamera(true, 1.25);
+								PlaySound(sfx_impact);
+							break;
+							
+							case obj_barrel:
+								if (!timerIsTicking) && currentState == EntityState.Action
+								{
+									DealDamage(other.damage);
+									directionCurrent = point_direction(x, y, other.x, other.y) - 180;
+								}
+							break;
+						}
+						
+						if (object_get_parent(object_index) == obj_enemy)
+						{
+							DealDamage(other.damage);
+						}
 					}
 				}
 			}

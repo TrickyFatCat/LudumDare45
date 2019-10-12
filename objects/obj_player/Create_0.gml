@@ -17,6 +17,7 @@ event_inherited();
 //Set shadow
 var _shadowScale = 1;
 SetShadowParametrs(true, _shadowScale);
+shadowAlpha = 0;
 
 //Movement parameters
 velocityMax = 2.5;
@@ -34,7 +35,8 @@ enum PlayerState
 	Jump,
 	Dash,
 	Transcendence,
-	Death
+	Death,
+	Inactive
 }
 
 currentState = PlayerState.Idle;
@@ -62,3 +64,14 @@ drawAlpha = 0;
 SetDissolveSettings(spr_dissolve_00, image_index, c_red, c_orange, 0.1);
 
 moveSoundTimer = 0;
+
+trancendenceTimer = 0;
+trancendenceProgress = 0;
+
+with (activeWeapon)
+{
+	x = weaponOwner.x + rotationOffsetX;
+	y = weaponOwner.y + rotationOffsetY;
+}
+
+targetScale = 2;

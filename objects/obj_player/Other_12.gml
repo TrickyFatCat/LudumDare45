@@ -18,9 +18,11 @@ if (global.TimeFactor > 0)
 	if (directionX < 0)
 	{
 		drawScaleX = -1;
+		targetScale = -2;
 	}
 	else if (directionX > 0)
 	{
 		drawScaleX = 1;
+		targetScale = 2;
 	}
 }

@@ -26,7 +26,7 @@ switch (currentState)
 	case SpawnPointState.Spawn:
 		var _state = owner.currentState;
 		
-		if (_state == EntityState.Idle)
+		if (_state >= EntityState.Idle)
 		{
 			currentState = SpawnPointState.Occupied;
 		}

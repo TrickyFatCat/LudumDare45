@@ -9,6 +9,7 @@ if (!isInvulnerable)
 {
 	DealDamage(other.damage);
 	EnableFlash(_flashColour, _flashPower);
+	PlaySound(sfx_impact);
 	ChekPlayerHP;
 }
 

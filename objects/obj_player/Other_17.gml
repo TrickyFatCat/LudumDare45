@@ -1,6 +1,6 @@
 /// @description PlayerHealthPointsReader
 
-if healthPointsCurrent <= 0
+if (healthPointsCurrent <= 0 && currentState < PlayerState.Transcendence)
 {
-	currentState = PlayerState.Death;
+	currentState = PlayerState.Transcendence;
 }

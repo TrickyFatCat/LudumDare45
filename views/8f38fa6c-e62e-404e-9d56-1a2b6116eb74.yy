@@ -13,7 +13,9 @@
         "99cd2b88-aa5a-4dee-8bb4-d15adecc6d83",
         "b2233a95-1ddf-4e09-aff5-3396cc24a7ad",
         "9ae5d5ec-2bb9-40c3-8ddf-d85275881589",
-        "b9142d72-5747-4451-bf4d-1534365abaf6"
+        "b9142d72-5747-4451-bf4d-1534365abaf6",
+        "b22b7cd2-bb7b-4de7-814a-664e5656fbde",
+        "05266595-4eb6-4253-8d28-0ccfa4340944"
     ],
     "filterType": "GMObject",
     "folderName": "Floor Effects",

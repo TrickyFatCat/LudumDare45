@@ -15,6 +15,8 @@ if (global.GameState == GameState.Active)
 		ExecuteDissolveIn(_spawnTime);
 	}
 	
+	shadowAlpha = dissolvePower;
+	
 	if (dissolvePower == 1)
 	{
 		currentState = PlayerState.Idle;

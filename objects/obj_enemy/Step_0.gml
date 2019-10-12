@@ -68,4 +68,8 @@ switch (currentState)
 	case EntityState.Death:
 		ExecuteStateDeath;
 	break;
+	
+	case EntityState.Inactive:
+		CheckEntityHP;
+	break;
 }

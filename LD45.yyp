@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "05266595-4eb6-4253-8d28-0ccfa4340944",
+            "Value": {
+                "id": "484e2c72-2236-4006-9eb5-b48998a349f0",
+                "resourcePath": "objects\\vfx_splatter_clean\\vfx_splatter_clean.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0561f6cd-6780-475d-81d6-cc4f725d6749",
             "Value": {
                 "id": "a056ff90-c000-4342-839b-6e15f3a2db68",
@@ -391,6 +399,14 @@
             }
         },
         {
+            "Key": "1903e2e0-489e-45f8-b16f-e5913023b6d9",
+            "Value": {
+                "id": "ed994f13-3954-419e-8222-10dc7f998664",
+                "resourcePath": "sounds\\sfx_deathtimer\\sfx_deathtimer.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "193ee99e-ebf2-47bf-908e-6a0484663f76",
             "Value": {
                 "id": "5db7cc67-f4d4-4e10-baf4-9acaf3878a12",
@@ -435,6 +451,14 @@
             "Value": {
                 "id": "5ac301d5-46c9-4610-9886-af56af935fb7",
                 "resourcePath": "sprites\\spr_enemy_zombie02_idle\\spr_enemy_zombie02_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1d19f67e-1741-4276-be31-e816269e1d22",
+            "Value": {
+                "id": "6628a61f-5805-4b79-98f7-30ec1d5703a8",
+                "resourcePath": "sprites\\explosion_4\\explosion_4.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -703,6 +727,14 @@
             }
         },
         {
+            "Key": "2de52589-c6d6-4fcc-8d52-c21705724058",
+            "Value": {
+                "id": "cbbb2eb2-04ba-4b3d-b138-27af1d6fc629",
+                "resourcePath": "sprites\\spr_splatter_clear\\spr_splatter_clear.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2e7bc693-80a5-416e-a3ca-ef04df74ca85",
             "Value": {
                 "id": "01f2180b-e5d2-422a-9a6d-96cb2bae770b",
@@ -804,6 +836,14 @@
                 "id": "fe331d7b-4685-4f5e-8ff7-cf579c91cae6",
                 "resourcePath": "objects\\obj_base\\obj_base.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "37078409-63a4-4d3b-bc00-879e9b5362d3",
+            "Value": {
+                "id": "50d61344-c4ab-4a87-a6ff-cda13853bb57",
+                "resourcePath": "sounds\\sfx_impact\\sfx_impact.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1383,6 +1423,14 @@
             }
         },
         {
+            "Key": "63a26f41-0390-416d-9c59-09f0791717ac",
+            "Value": {
+                "id": "7eae0ca3-d0b7-418f-b4ae-a69c16ff570a",
+                "resourcePath": "sounds\\sfx_death_explosion\\sfx_death_explosion.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "64252168-0fef-4f5a-8efc-73d39d55065f",
             "Value": {
                 "id": "677c02b2-0934-4251-adf4-665c10e8f765",
@@ -1611,6 +1659,14 @@
             "Value": {
                 "id": "760a4c27-461e-4593-b0a9-29def2144e10",
                 "resourcePath": "objects\\obj_enemy_zombie_rocketlauncher\\obj_enemy_zombie_rocketlauncher.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "73ce9e62-bfd0-4294-adc7-8df5c33061af",
+            "Value": {
+                "id": "8c12efff-c128-4a3f-a5d7-69b1567ee697",
+                "resourcePath": "objects\\obj_explostion_playerDeath\\obj_explostion_playerDeath.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2315,6 +2371,14 @@
             "Value": {
                 "id": "c25bc1c0-50d8-482d-86ae-92cb6a98edd2",
                 "resourcePath": "objects\\vfx_splatter_explosion\\vfx_splatter_explosion.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b22b7cd2-bb7b-4de7-814a-664e5656fbde",
+            "Value": {
+                "id": "46804810-9cb9-4aae-9de4-6f6e54c7bd51",
+                "resourcePath": "objects\\vfx_smear_clean\\vfx_smear_clean.yy",
                 "resourceType": "GMObject"
             }
         },

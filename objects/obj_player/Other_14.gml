@@ -5,8 +5,3 @@
 //var _deltaY = lengthdir_y(8, 90);
 
 // Sequence
-with (activeWeapon)
-{
-	x = weaponOwner.x + rotationOffsetX;
-	y = weaponOwner.y + rotationOffsetY;
-}

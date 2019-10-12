@@ -28,11 +28,11 @@ switch (global.BattleState)
 	break;
 			
 	case BattleState.Active:
-		if (!audio_is_playing(music)) && (!audio_is_playing(sfx_start))
+		if (!audio_is_playing(global.music)) && (!audio_is_playing(sfx_start)) && global.Player.currentState < PlayerState.Transcendence
 		{
-			audio_sound_gain(music, 0, 0);
-			audio_play_sound(music, 1000, true);
-			audio_sound_gain(music, 0.2, 1000);
+			audio_sound_gain(global.music, 0, 0);
+			audio_play_sound(global.music, 1000, true);
+			audio_sound_gain(global.music, 0.2, 1000);
 		}
 		
 		global.PlayTime += global.TimeFactor;
@@ -44,17 +44,12 @@ switch (global.BattleState)
 			if (_checkTimer)
 			{
 				global.DifficultyLevel++;
-				show_debug_message(global.DifficultyLevel)
 			}
 		}
 	break;
 			
 	case BattleState.End:
-		if (audio_is_playing(music))
-		{
-			audio_stop_sound(music);
-		}
-		else if (!audio_is_playing(bgm_defeat))
+		if (!audio_is_playing(bgm_defeat))
 		{
 			audio_play_sound(bgm_defeat, 0, false);
 		}

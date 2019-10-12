@@ -44,7 +44,8 @@ enum EntityState
 	Move,
 	Action,
 	Trancendence,
-	Death
+	Death,
+	Inactive
 }
 
 currentState = EntityState.Spawn;
