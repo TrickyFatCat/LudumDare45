@@ -64,6 +64,10 @@ switch (currentState)
 			audio_stop_sound(sfx_deathtimer);
 		}
 	break;
+	
+	case PlayerState.Inactive:
+		collisionEnable = false;
+	break;
 }
 
 //isInvulnerable = truke;

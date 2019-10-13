@@ -3,7 +3,7 @@
 //Parameters
 
 //Sequence
-if (!isInvulnerable) && (other.dealingDamage)
+if (!isInvulnerable) && (other.dealingDamage) && (collisionEnable)
 {
 	DealDamage(other.damage);
 }

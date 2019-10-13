@@ -9,6 +9,7 @@ switch (currentState)
 {
 	case EntityState.Spawn:
 		isInvulnerable = true;
+		collisionEnable = false;
 
 		ExecuteDissolveIn(_spawnTime);
 	
@@ -24,6 +25,7 @@ switch (currentState)
 	break;
 	
 	case EntityState.Idle:
+		collisionEnable = true;
 		ChangeSpriteTo(spriteIdle);
 		ExecuteStateIdle;
 		CheckEntityHP;

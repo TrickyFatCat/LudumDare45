@@ -6,6 +6,7 @@ switch (currentState)
 {
 	case EntityState.Spawn:
 		isInvulnerable = true;
+		collisionEnable = false;
 		
 		ExecuteDissolveIn(_spawnTime);
 	
@@ -22,6 +23,7 @@ switch (currentState)
 	
 	case EntityState.Action:
 		isInvulnerable = false;
+		collisionEnable = true;
 		
 		if (healthPointsCurrent <= 0 && (!timerIsTicking))
 		{

@@ -28,11 +28,12 @@ switch (global.BattleState)
 	break;
 			
 	case BattleState.Active:
-		if (!audio_is_playing(global.music)) && (!audio_is_playing(sfx_start)) && global.Player.currentState < PlayerState.Transcendence
+		if (!audio_is_playing(global.Music)) && (!audio_is_playing(sfx_start)) && global.Player.currentState < PlayerState.Transcendence
 		{
-			audio_sound_gain(global.music, 0, 0);
-			audio_play_sound(global.music, 1000, true);
-			audio_sound_gain(global.music, 0.2, 1000);
+			global.Music = choose(bgm_battle00, bgm_battle01, bgm_battle02, bgm_battle03);
+			audio_sound_gain(global.Music, 0, 0);
+			audio_play_sound(global.Music, 1000, true);
+			audio_sound_gain(global.Music, 0.5, 1500);
 		}
 		
 		global.PlayTime += global.TimeFactor;

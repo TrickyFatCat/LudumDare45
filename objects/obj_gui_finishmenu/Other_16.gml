@@ -11,8 +11,8 @@ switch (menuCurrentAction)
 		}
 		
 		global.PlayTime = 0;
-		
 		global.Score = 0;
+		audio_stop_sound(bgm_menu);
 	break;
 	
 	case FinishMenuItem.Fullscreen:

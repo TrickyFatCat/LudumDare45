@@ -1,13 +1,15 @@
 /// @description Insert description here
-if (!isInvulnerable)
+
+if (collisionEnable)
 {
-	DealDamage(other.damage);
-	//for (var i = 0; i < 5; i++)
-	//{
-	//	instance_create_layer(x, y, layer, vfx_impact);
-	//}
+	if (!isInvulnerable)
+	{
+		DealDamage(other.damage);
+		//for (var i = 0; i < 5; i++)
+		//{
+		//	instance_create_layer(x, y, layer, vfx_impact);
+		//}
+	}
+
+	instance_destroy(other);
 }
-
-instance_destroy(other);
-
-global.Score += scoreAdd;

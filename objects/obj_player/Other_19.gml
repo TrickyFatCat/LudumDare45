@@ -6,7 +6,7 @@
 
 var _step = set_step(0.25);
 
-audio_stop_sound(global.music);
+audio_stop_sound(global.Music);
 
 if (!audio_is_playing(sfx_deathtimer))
 {

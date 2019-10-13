@@ -8,6 +8,7 @@ ChekPlayerHP;
 if (global.CurrentInput == InputMethod.Gamepad)
 {
 	activeWeapon.laserSightEnabled = true;
+	activeWeapon.lasersightAlpha = drawAlpha;
 }
 else
 {

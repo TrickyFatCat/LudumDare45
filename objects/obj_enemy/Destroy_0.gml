@@ -10,7 +10,7 @@ if (weaponData != noone)
 
 instance_destroy(activeWeapon);
 
-var _drop = choose(obj_pickup_ammo, obj_pickup_health, noone, noone, noone, noone);
+var _drop = choose(obj_pickup_ammo, obj_pickup_health, noone, noone, noone, noone, noone, noone, noone, noone, noone, noone, noone, noone, noone);
 
 if (_drop = obj_pickup_ammo)
 {
@@ -20,3 +20,5 @@ else if (_drop = obj_pickup_health)
 {
 	instance_create_layer(x, y, layer, _drop);
 }
+
+global.Score += scoreAdd;

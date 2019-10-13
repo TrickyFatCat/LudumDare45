@@ -22,3 +22,4 @@ menuItemsCount = array_length_1d(menuItem);
 
 menuActiveItem = 2;
 fullScreenItemIndex = MainMenuItem.Fullscreen;
+

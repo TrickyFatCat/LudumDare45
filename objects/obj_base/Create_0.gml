@@ -34,3 +34,5 @@ velocityY = 0.0;
 
 // Gravity immitation parameters
 z = 0.0;
+offsetZ = 0;
+collisionEnable = true;

@@ -10,7 +10,7 @@ var _isPrecise = argument2;
 
 var _cast = process_raycast(x, y, _direction, _targetObject, _isPrecise, false, 4000);
 
-if (_cast[cast.instance] != noone)
+if (_cast[cast.instance] != noone) && (_targetObject.collisionEnable)
 {
 	endPointX = _cast[cast.x];
 	endPointY = _cast[cast.y];

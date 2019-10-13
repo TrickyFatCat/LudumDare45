@@ -1,8 +1,11 @@
 /// @description Insert description here
 
-if (!isInvulnerable)
+if (collisionEnable)
 {
-	DealDamage(other.damage);
-}
+	if (!isInvulnerable)
+	{
+		DealDamage(other.damage);
+	}
 
-instance_destroy(other);
+	instance_destroy(other);
+}

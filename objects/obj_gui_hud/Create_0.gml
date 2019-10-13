@@ -43,3 +43,8 @@ hudAlpha = 1;
 
 showStartBattleText = false;
 startBattleTextTimer = 0;
+
+if (audio_is_playing(bgm_menu))
+{
+	audio_stop_sound(bgm_menu);
+}

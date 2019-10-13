@@ -54,3 +54,12 @@ if global.DifficultyLevel == 8 && enemyCountMax != 35
 {
 	enemyCountMax = 35;
 }
+if global.DifficultyLevel == 9 && enemyCountMax != 40
+{
+	enemyCountMax = 40;
+}
+if global.DifficultyLevel == 10 && enemyCountMax != 45
+{
+	enemyCountMax = 45;
+	spawnPauseTime = set_time(0.5);
+}

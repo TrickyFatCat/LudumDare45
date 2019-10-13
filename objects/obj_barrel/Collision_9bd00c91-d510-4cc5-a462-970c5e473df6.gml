@@ -1,7 +1,10 @@
-instance_destroy(other);
-
-if (!timerIsTicking) && currentState == EntityState.Action
+if (collisionEnable)
 {
-	timerIsTicking = true;
-	directionCurrent = other.directionCurrent;
+	instance_destroy(other);
+
+	if (!timerIsTicking) && currentState == EntityState.Action
+	{
+		timerIsTicking = true;
+		directionCurrent = other.directionCurrent;
+	}
 }

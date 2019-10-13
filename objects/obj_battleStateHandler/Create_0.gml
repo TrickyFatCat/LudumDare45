@@ -21,9 +21,10 @@ difficultyIncreaseTime[5] = set_time(60);
 difficultyIncreaseTime[6] = set_time(70);
 difficultyIncreaseTime[7] = set_time(80);
 difficultyIncreaseTime[8] = set_time(90);
+difficultyIncreaseTime[9] = set_time(100);
+difficultyIncreaseTime[10] = set_time(110);
 
 global.DifficultyLevel = 0;
 global.Score = 0;
 
-global.music = choose(bgm_loop01, bgm_loop02, bgm_loop03, bgm_loop04);
 soundTimer = set_time(1);
