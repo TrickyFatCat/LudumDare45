@@ -11,7 +11,7 @@ switch (menuCurrentAction)
 		}
 		
 		global.PlayTime = 0;
-		global.DifficultyLevel = 0;
+		
 		global.Score = 0;
 	break;
 	
@@ -33,7 +33,7 @@ switch (menuCurrentAction)
 			window_set_fullscreen(false);
 			with (obj_displayManagerPC)
 			{
-				resolutionZoom = max(resolutionZoomMax - 1);
+				resolutionZoom = max(resolutionZoomMax - 1, 1);
 				UpdateResolution;
 			}
 		}
