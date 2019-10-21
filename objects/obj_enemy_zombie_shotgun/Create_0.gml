@@ -3,9 +3,6 @@
 // Inherit the parent event
 event_inherited();
 
-velocityMax = 1.5;
-acceleration = 0.2;
-
 activeWeapon = instance_create_layer(x, y, layer, obj_weapon_enemy);
 weaponID = EnemyWeapon.Shotgun;
 SetWeapon(activeWeapon, weaponID);

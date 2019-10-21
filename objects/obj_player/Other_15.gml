@@ -13,7 +13,8 @@ if (global.TimeFactor > 0)
 				
 				if (_axisChanged)
 				{
-					directionCurrent = point_direction(0, 0, _axisHorizontal, _axisVertical);
+					var _newDirection = point_direction(0, 0, _axisHorizontal, _axisVertical);
+					directionCurrent = lerp(0,_newDirection, 0.75);
 				}
 			break;
 			

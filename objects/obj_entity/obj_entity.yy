@@ -103,6 +103,48 @@
             "value": "0",
             "varName": "spriteRun",
             "varType": 5
+        },
+        {
+            "id": "bf15383a-ec56-4f68-86d0-671891b8e9c6",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "velocityMax",
+            "varType": 0
+        },
+        {
+            "id": "a1c04ab7-fa9a-418b-a766-7292ef789dae",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "acceleration",
+            "varType": 0
+        },
+        {
+            "id": "8d8b9e4b-be11-49a9-ac40-246f16bd923a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "groundFriction",
+            "varType": 0
         }
     ],
     "solid": false,

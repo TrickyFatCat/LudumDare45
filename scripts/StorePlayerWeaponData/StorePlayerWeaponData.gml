@@ -46,7 +46,7 @@ ds_map_add(PistolData, "bulletObject",				obj_projectileP_pistol);
 ds_map_add(PistolData, "bulletNumber",				1);
 ds_map_add(PistolData, "bulletSpawnPointOffset",	15);
 //-----------------------------------------------------------------------------
-ds_map_add(PistolData, "damage",					5);
+ds_map_add(PistolData, "damage",					6);
 ds_map_add(PistolData, "heal",						0);
 //-----------------------------------------------------------------------------
 ds_map_add(PistolData, "rateOfFireAccelerated",		false);
@@ -65,7 +65,7 @@ ds_map_add(PistolData, "spreadIsDynamic",			false);
 ds_map_add(PistolData, "spreadIsUniform",			false);
 ds_map_add(PistolData, "spreadAngleIncrFactor",		0);
 ds_map_add(PistolData, "spreadAngleDecrFactor",		0);
-ds_map_add(PistolData, "spreadAngleMin",			20);
+ds_map_add(PistolData, "spreadAngleMin",			16);
 ds_map_add(PistolData, "spreadAngleMax",			0);
 //-----------------------------------------------------------------------------
 ds_map_add(PistolData, "ammoID",					PlayerAmmo.Bullet);
@@ -227,7 +227,7 @@ ds_map_add(DShotgunData, "spreadIsDynamic",				false);
 ds_map_add(DShotgunData, "spreadIsUniform",				false);
 ds_map_add(DShotgunData, "spreadAngleIncrFactor",		0);
 ds_map_add(DShotgunData, "spreadAngleDecrFactor",		0);
-ds_map_add(DShotgunData, "spreadAngleMin",				20);
+ds_map_add(DShotgunData, "spreadAngleMin",				16);
 ds_map_add(DShotgunData, "spreadAngleMax",				0);
 //-----------------------------------------------------------------------------
 ds_map_add(DShotgunData, "ammoID",						PlayerAmmo.Shell);

@@ -118,6 +118,14 @@
             "objectId": "39a84839-a339-4e0e-b1f7-372d6d294a74",
             "propertyId": "462cde36-5995-43d3-8295-4645af9d0e5b",
             "value": "vfx_splatter_brown"
+        },
+        {
+            "id": "81018a41-7005-4707-96c5-da3df01faa62",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "e65bc741-4250-4699-9351-a45d11e39675",
+            "propertyId": "bf15383a-ec56-4f68-86d0-671891b8e9c6",
+            "value": "0.75"
         }
     ],
     "parentObjectId": "39a84839-a339-4e0e-b1f7-372d6d294a74",

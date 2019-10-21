@@ -156,7 +156,7 @@ ds_map_add(EnemyPistolData, "spreadIsDynamic",				false);
 ds_map_add(EnemyPistolData, "spreadIsUniform",				false);
 ds_map_add(EnemyPistolData, "spreadAngleIncrFactor",		0);
 ds_map_add(EnemyPistolData, "spreadAngleDecrFactor",		0);
-ds_map_add(EnemyPistolData, "spreadAngleMin",				30);
+ds_map_add(EnemyPistolData, "spreadAngleMin",				20);
 ds_map_add(EnemyPistolData, "spreadAngleMax",				0);
 //-----------------------------------------------------------------------------
 ds_map_add(EnemyPistolData, "ammoID",						-1);

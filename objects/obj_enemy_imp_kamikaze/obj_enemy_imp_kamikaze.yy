@@ -138,6 +138,22 @@
             "objectId": "39a84839-a339-4e0e-b1f7-372d6d294a74",
             "propertyId": "462cde36-5995-43d3-8295-4645af9d0e5b",
             "value": "vfx_splatter_blood"
+        },
+        {
+            "id": "bf3b2663-e857-4954-a94b-3c134bb2feca",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "e65bc741-4250-4699-9351-a45d11e39675",
+            "propertyId": "bf15383a-ec56-4f68-86d0-671891b8e9c6",
+            "value": "2.75"
+        },
+        {
+            "id": "8632bc4f-0c73-4625-b776-18740d10a394",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "e65bc741-4250-4699-9351-a45d11e39675",
+            "propertyId": "a1c04ab7-fa9a-418b-a766-7292ef789dae",
+            "value": "0.5"
         }
     ],
     "parentObjectId": "39a84839-a339-4e0e-b1f7-372d6d294a74",

@@ -1,6 +1,6 @@
 /// @description GIFRecordingConroller
 
-var _recordPressed = keyboard_check_pressed(ord("T"));
+var _recordPressed = false;
 
 if (_recordPressed)
 {

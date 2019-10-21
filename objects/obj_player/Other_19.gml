@@ -2,7 +2,10 @@
 
 // Parameters
 
-
+if (activeWeapon.isShooting)
+{
+	activeWeapon.isShooting = false;
+}
 
 var _step = set_step(0.25);
 
@@ -24,8 +27,6 @@ with (activeWeapon)
 }
 
 EnableFlash(c_red, 0.75)
-
-//show_debug_message(dissolvePower)
 		
 if (drawScaleX >= targetScale)
 {

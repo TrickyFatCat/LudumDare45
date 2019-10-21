@@ -232,6 +232,14 @@
             "objectId": "e65bc741-4250-4699-9351-a45d11e39675",
             "propertyId": "2aa18b62-ad05-4c51-abad-332959da88e1",
             "value": "spr_enemy_zombie00_idle"
+        },
+        {
+            "id": "03466356-b46f-40d7-ba14-8e7bb05524e8",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "e65bc741-4250-4699-9351-a45d11e39675",
+            "propertyId": "a1c04ab7-fa9a-418b-a766-7292ef789dae",
+            "value": "0.2"
         }
     ],
     "parentObjectId": "e65bc741-4250-4699-9351-a45d11e39675",
