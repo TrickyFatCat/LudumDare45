@@ -3,9 +3,6 @@
 // Inherit the parent event
 event_inherited();
 
-// Inherit the parent event
-event_inherited();
-
 // Menu parameters
 menuTargetX = guiMarginX;
 
